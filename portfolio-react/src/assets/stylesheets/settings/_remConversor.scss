@@ -1,0 +1,3 @@
+@function remConversor($pixels) {
+    @return ($pixels / $font-size-base * 1rem);
+}
