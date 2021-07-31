@@ -1,11 +1,16 @@
 import React from "react";
 import { withTranslation } from "react-i18next";
 
-import "./App.css";
+import { LanguageButton } from "./app/components/molecules/LanguageButton";
+
+import "./App.scss";
 
 function App ({ t }) {
 	return (
-		<h1>{t("header.hi")}</h1>
+		<main>
+			<h1>{t("header.hi")}</h1>
+			<LanguageButton></LanguageButton>
+		</main>
 	);
 }
 
