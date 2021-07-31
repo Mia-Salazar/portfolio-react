@@ -1,1 +1,12 @@
 @import './assets/stylesheets/styles.scss';
+
+html {
+    height: 100vh;
+    background-color: $secondary-color;
+}
+
+.main {
+    position: relative;
+    height: calc(100vh - 24px);
+    overflow: hidden;
+}
