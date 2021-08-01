@@ -1,6 +1,8 @@
+@import '../../../../assets/stylesheets/settings/toRem';
+
 .footer {
     position: absolute;
-    bottom: 16px;
+    bottom: toRem(16);
     right: 0;
 
     @media (max-width: 991px) {
