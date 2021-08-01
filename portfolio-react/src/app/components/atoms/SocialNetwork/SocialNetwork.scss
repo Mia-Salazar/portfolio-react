@@ -1,0 +1,29 @@
+@import '../../../../assets/stylesheets/settings/variables';
+
+.social-item {
+    margin-right: 16px;
+
+    &:hover {
+        .social-item__link {
+            background-color: $primary-color;
+        }
+    
+        .social-item__icon {
+            color: $primary-color-light;
+        }
+    }
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+
+    &__link {
+        padding: 10px 8px 4px 8px;
+        background-color: $primary-color-light;
+    }
+
+    &__icon {
+        color: $primary-color;
+        font-size: $font-size-m;
+    }
+}

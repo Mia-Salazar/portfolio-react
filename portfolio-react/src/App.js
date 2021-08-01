@@ -1,7 +1,8 @@
 import React from "react";
 import { withTranslation } from "react-i18next";
 
-import { Header } from "../src/app/components/atoms/Header/Header";
+import { Header } from "../src/app/components/molecules/Header/Header";
+import { Footer } from "../src/app/components/molecules/Footer/Footer";
 import { Star } from "../src/app/components/atoms/Star/Star";
 import { Spaceship } from "../src/app/components/atoms/Spaceship/Spaceship";
 import { LanguageButton } from "./app/components/molecules/LanguageButton/LanguageButton";
@@ -16,15 +17,14 @@ function App ({ t }) {
 					return <Star key={i}></Star>;
 				})}
 			</div>
+			<Spaceship/>
 			<div className="all-content">
 				<Header/>
-				<Spaceship/>
 				<main>
 					<h1>{t("header.hi")}</h1>
 					<LanguageButton></LanguageButton>
 				</main>
-				
-
+				<Footer/>
 			</div>
 		</div>
 	);
