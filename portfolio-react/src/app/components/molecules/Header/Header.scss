@@ -1,12 +1,13 @@
 @import '../../../../assets/stylesheets/settings/variables';
+@import '../../../../assets/stylesheets/settings/toRem';
 
 .header {
     &__title-container {
         width: fit-content;
         margin: 0 auto;
-        padding: 24px;
-        border-top: 2px solid $primary-color;
-        border-bottom: 4px solid $primary-color;
+        padding: toRem(24);
+        border-top: toRem(2) solid $primary-color;
+        border-bottom: toRem(4) solid $primary-color;
         background-color: $primary-color-light;
     }
 
@@ -14,7 +15,7 @@
         width: min-content;
         margin: 0;
         font-size: $font-size-xl;
-        letter-spacing: 3px;
+        letter-spacing: toRem(3);
 
         @media (min-width: 768px) {
             width: unset;
@@ -24,11 +25,11 @@
 
     &__subtitle {
         width: fit-content;
-        margin: 24px auto 0 auto;
+        margin: toRem(24) auto 0 auto;
         background-color: $secondary-color;
 
         @media (max-width: 767px) {
-            max-width: 200px;
+            max-width: toRem(200);
             font-size: $font-size-m;
         }
     }

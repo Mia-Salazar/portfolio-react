@@ -1,8 +1,9 @@
 @import '../../../../assets/stylesheets/settings/variables';
+@import '../../../../assets/stylesheets/settings/toRem';
 
 .spaceship {
-    width: 40px;
-    height: 55px;
+    width: toRem(40);
+    height: toRem(55);
     position: absolute;
     top: 90%;
     left: 0%;
@@ -11,10 +12,10 @@
 
     &__window {
         position: absolute;
-        left: 10px;
-        top: 12px;
-        width: 10px;
-        height: 10px;
+        left: toRem(10);
+        top: toRem(12);
+        width: toRem(10);
+        height: toRem(10);
         border-radius: 50%;
         background-color: #000;
         display: block;
@@ -22,8 +23,8 @@
     }
 
     &__body {
-        width: 30px;
-        height: 30px;
+        width: toRem(30);
+        height: toRem(30);
         background: #fff;
         transform: rotate(45deg) skew(15deg, 15deg);
         display: inline-block;
@@ -33,39 +34,40 @@
   
     &__left-motor {
         position: absolute;
-        top: 22px;
-        left: 7px;  
+        top: toRem(22);
+        left: toRem(7);  
         display: block;
-        width: 25px;
-        height: 11px;
+        width: toRem(25);
+        height: toRem(11);
         background: $white;
         transform: rotate(50deg);
     }
   
     &__right-motor {
         position: absolute;
-        top: 22px;
-        left: -2px;
+        top: toRem(22);
+        left: toRem(-2);
         display: block;
-        width: 25px;
-        height: 11px;
+        width: toRem(25);
+        height: toRem(11);
         background: $white;
         transform: rotate(-50deg);
     }
   
     &__flame-container {
         position: absolute;
-        left: 28px;
-        bottom: 5px;
+        left: toRem(28);
+        bottom: toRem(5);
         transform: rotate(180deg);
         z-index: $z-index-infra;
     }
 
     &__flame {
         position: absolute;
-        left: 4px; 
-        height: 0px; width: 0px;
-        border: 8px solid $red;
+        left: toRem(4); 
+        height: 0;
+        width: 0;
+        border: toRem(8) solid $red;
         border-radius: 50%;
         border-top-left-radius: 0;
         background-color: $red;
@@ -73,13 +75,13 @@
         animation: shine-middle 1.5s infinite;
 
         &--middle { 
-            left: -1px; 
+            left: toRem(-1); 
             transform: rotate(15deg) scale(0.75);
             animation: shine-left 1.5s infinite;
         }
 
         &--last { 
-            left: 9px; 
+            left: toRem(9); 
             transform: rotate(80deg) scale(0.75);
             animation: shine-right 1.5s infinite;
         }

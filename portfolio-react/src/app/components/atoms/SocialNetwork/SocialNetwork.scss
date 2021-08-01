@@ -1,7 +1,8 @@
 @import '../../../../assets/stylesheets/settings/variables';
+@import '../../../../assets/stylesheets/settings/toRem';
 
 .social-item {
-    margin-right: 16px;
+    margin-right: toRem(16);
 
     &:hover {
         .social-item__link {
@@ -18,7 +19,7 @@
     }
 
     &__link {
-        padding: 10px 8px 4px 8px;
+        padding: toRem(10) toRem(8) toRem(4) toRem(8);
         background-color: $primary-color-light;
     }
 
