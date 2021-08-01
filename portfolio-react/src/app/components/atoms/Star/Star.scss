@@ -1,8 +1,12 @@
-@import '../../../../assets//stylesheets//settings/variables';
+@import '../../../../assets//stylesheets/settings/variables';
 
 .star {
     position: absolute;
     display: block;
     background-color: $white;
     border-radius: 50%;
+
+    @media (max-width: 767px) {
+        transform: scale(0.75);
+    }
 }

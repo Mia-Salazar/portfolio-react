@@ -1,0 +1,108 @@
+@import '../../../../assets//stylesheets//settings/variables';
+
+.spaceship {
+    width: 40px;
+    height: 55px;
+    position: relative;
+    top: 100%;
+    left: 0%;
+    transform: scale(0.8);
+    animation: travelling  40s infinite;
+
+    &__window {
+        position: absolute;
+        left: 10px;
+        top: 12px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #000;
+        display: block;
+        z-index: 1;
+    }
+
+    &__body {
+        width: 30px;
+        height: 30px;
+        background: #fff;
+        transform: rotate(45deg) skew(15deg, 15deg);
+        display: inline-block;
+        margin: 0;
+        border-radius: 35%;
+    }
+  
+    &__left-motor {
+        position: absolute;
+        top: 22px;
+        left: 7px;  
+        display: block;
+        width: 25px;
+        height: 11px;
+        background: $white;
+        transform: rotate(50deg);
+    }
+  
+    &__right-motor {
+        position: absolute;
+        top: 22px;
+        left: -2px;
+        display: block;
+        width: 25px;
+        height: 11px;
+        background: $white;
+        transform: rotate(-50deg);
+    }
+  
+    &__flame-container {
+        position: absolute;
+        left: 28px;
+        bottom: 5px;
+        transform: rotate(180deg);
+        z-index: $z-index-infra;
+    }
+
+    &__flame {
+        position: absolute;
+        left: 4px; 
+        height: 0px; width: 0px;
+        border: 8px solid $red;
+        border-radius: 50%;
+        border-top-left-radius: 0;
+        background-color: $red;
+        transform: rotate(45deg);
+        animation: shine-middle 1.5s infinite;
+
+        &--middle { 
+            left: -1px; 
+            transform: rotate(15deg) scale(0.75);
+            animation: shine-left 1.5s infinite;
+        }
+
+        &--last { 
+            left: 9px; 
+            transform: rotate(80deg) scale(0.75);
+            animation: shine-right 1.5s infinite;
+        }
+    }
+}
+
+
+@keyframes shine-middle {
+    0%   {transform: scale(0.85) rotate(45deg)}
+}
+  
+@keyframes shine-left {
+    0%   {transform: scale(0.55) rotate(15deg)}
+}
+  
+@keyframes shine-right {
+    0%   {transform: scale(0.55) rotate(80deg);}
+}
+
+@keyframes travelling {
+    0% {top: 100%}
+    25% {top: 10%; transform: scale(0.85) rotate(135deg);}
+    50% {top: 90%; left: 50%;transform: scale(0.8) rotate(0deg);}
+    75% {top: 10%; left: 90%;transform: scale(0.8) rotate(-180deg);}
+    100% {top: 100%; left: 0;transform: scale(0.8) rotate(0deg);}
+}

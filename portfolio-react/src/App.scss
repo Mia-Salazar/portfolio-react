@@ -5,8 +5,12 @@ html {
     background-color: $secondary-color;
 }
 
+.principal-wrapper {
+    height: 100vh;
+}
+
 .main {
     position: relative;
-    height: calc(100vh - 24px);
+    height: 100%;
     overflow: hidden;
 }
