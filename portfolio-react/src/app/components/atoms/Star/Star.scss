@@ -5,6 +5,7 @@
     display: block;
     background-color: $white;
     border-radius: 50%;
+    z-index: $z-index-infra;
 
     @media (max-width: 767px) {
         transform: scale(0.75);

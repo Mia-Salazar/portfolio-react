@@ -1,0 +1,43 @@
+@import '../../../../assets/stylesheets/settings/variables';
+
+.header {
+
+    &__title-container {
+        width: fit-content;
+        margin: 0 auto;
+        padding: 24px;
+        border-top: 2px solid $primary-color;
+        border-bottom: 4px solid $primary-color;
+        background-color: $primary-color-light;
+    }
+
+    &__title {
+        width: min-content;
+        margin: 0;
+        font-size: $font-size-xl;
+        letter-spacing: 3px;
+
+        @media (min-width: 768px) {
+            width: unset;
+            font-size: $font-size-xxl;
+        }
+    }
+
+    &__subtitle {
+        margin: 24px auto 0 auto;
+        background-color: $secondary-color;
+
+        @media (max-width: 767px) {
+            max-width: 200px;
+            font-size: $font-size-m;
+        }
+    }
+
+    &__subtitle, &__title {
+        color: $primary-color;
+        font-family: $font-family-primary;
+        font-weight: 100;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
