@@ -1,16 +1,19 @@
 @import './assets/stylesheets/styles.scss';
 
 html {
-    height: 100vh;
     background-color: $secondary-color;
 }
 
-.principal-wrapper {
+.wrapper {
     height: 100vh;
+    padding: 0 24px;
 }
 
-.main {
+.all-content {
     position: relative;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     overflow: hidden;
 }
