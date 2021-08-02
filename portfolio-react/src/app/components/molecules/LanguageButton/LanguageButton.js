@@ -11,7 +11,7 @@ export const LanguageButton = () => {
 		setLanguage(language);
 	};
 	return (
-		<div className="language-buttons">
+		<div className="language-buttons" aria-label={i18n.t("navbar.lang")}>
 			<button className={language === "en" ? "language-buttons__item language-buttons__item--active" : "language-buttons__item" } onClick={() => changeLanguage("en")}>en</button>
 			<button className={language === "es" ? "language-buttons__item language-buttons__item--active" : "language-buttons__item" } onClick={() => changeLanguage("es")}>es</button>
 		</div>
