@@ -1,0 +1,24 @@
+@import '../../../../assets/stylesheets/settings/variables';
+@import '../../../../assets/stylesheets/settings/toRem';
+@import '../../../../assets/stylesheets/settings/mixins';
+
+.language-buttons {
+    margin: toRem(12) toRem(18) toRem(24) toRem(18);
+
+    @media (min-width: 992px) {
+        margin-bottom: 0;
+    }
+
+    &__item {
+        @include main-font;
+        padding: 8px;
+        border: none;
+        background-color: transparent;
+        color: $primary-color;
+
+        &--active, &:hover {
+            background-color: $primary-color;
+            color: $primary-color-light;
+        }
+    }
+}

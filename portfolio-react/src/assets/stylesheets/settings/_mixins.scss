@@ -5,3 +5,8 @@
     font-weight: 100;
     text-transform: uppercase;
 }
+
+@mixin secondary-font {
+    font-family: $font-family-secondary;
+    text-transform: uppercase;
+}

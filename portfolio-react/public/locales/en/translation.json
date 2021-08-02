@@ -4,6 +4,12 @@
     },
     "footer": "Follow me on {{key}}",
     "navbar": {
-        "continue": "Continue"
+        "continue": "Continue",
+        "about": "About me",
+        "portfolio": "Portfolio",
+        "skills": "Skills",
+        "awards": "Awards & articles",
+        "contact": "Contact",
+        "lang": "Change language"
     }
 } 

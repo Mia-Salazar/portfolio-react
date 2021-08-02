@@ -1,12 +1,11 @@
 import React from "react";
 import { withTranslation } from "react-i18next";
 
+import { Star } from "../src/app/components/atoms/Star/Star";
+import { Spaceship } from "../src/app/components/atoms/Spaceship/Spaceship";
 import { Header } from "../src/app/components/molecules/Header/Header";
 import { Footer } from "../src/app/components/molecules/Footer/Footer";
-import { LanguageButton } from "./app/components/molecules/LanguageButton/LanguageButton";
-import { Star } from "../src/app/components/atoms/Star/Star";
-import { Button } from "../src/app/components/atoms/Button/Button";
-import { Spaceship } from "../src/app/components/atoms/Spaceship/Spaceship";
+import { Navbar } from "../src/app/components/organisms/Navbar/Navbar";
 import "./App.scss";
 
 function App ({ t }) {
@@ -23,10 +22,11 @@ function App ({ t }) {
 				<Header/>
 				<main>
 					<h1>{t("header.hi")}</h1>
-					<Button text="navbar.continue"></Button>
-					<LanguageButton></LanguageButton>
+					<Navbar/>
 				</main>
-				<Footer/>
+				<footer className="footer">
+					<Footer/>
+				</footer>
 			</div>
 		</div>
 	);

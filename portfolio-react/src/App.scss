@@ -17,3 +17,13 @@ html {
     justify-content: center;
     overflow: hidden;
 }
+
+.footer {
+    position: absolute;
+    bottom: toRem(16);
+    right: 0;
+
+    @media (max-width: 991px) {
+        display: none;
+    }
+}
