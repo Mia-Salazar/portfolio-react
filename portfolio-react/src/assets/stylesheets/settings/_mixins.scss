@@ -1,0 +1,7 @@
+@import '../settings/variables';
+
+@mixin main-font {
+    font-family: $font-family-primary;
+    font-weight: 100;
+    text-transform: uppercase;
+}

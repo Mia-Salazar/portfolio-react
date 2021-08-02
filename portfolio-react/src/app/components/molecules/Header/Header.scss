@@ -1,5 +1,6 @@
 @import '../../../../assets/stylesheets/settings/variables';
 @import '../../../../assets/stylesheets/settings/toRem';
+@import '../../../../assets/stylesheets/settings/mixins';
 
 .header {
     z-index: $z-index-lg;
@@ -37,10 +38,8 @@
     }
 
     &__subtitle, &__title {
+        @include main-font;
         color: $primary-color;
-        font-family: $font-family-primary;
-        font-weight: 100;
         text-align: center;
-        text-transform: uppercase;
     }
 }
