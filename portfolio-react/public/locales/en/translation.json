@@ -1,5 +1,6 @@
 {
     "header":{
         "hi": "example"
-    }
+    },
+    "footer": "Follow me on {{key}}"
 } 
