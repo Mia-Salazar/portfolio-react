@@ -2,5 +2,8 @@
     "header":{
         "hi": "ejemplo"
     },
-    "footer": "Sígueme en {{key}}"
+    "footer": "Sígueme en {{key}}",
+    "navbar": {
+        "continue": "Continuar"
+    }
 }    

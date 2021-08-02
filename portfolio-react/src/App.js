@@ -3,9 +3,10 @@ import { withTranslation } from "react-i18next";
 
 import { Header } from "../src/app/components/molecules/Header/Header";
 import { Footer } from "../src/app/components/molecules/Footer/Footer";
-import { Star } from "../src/app/components/atoms/Star/Star";
-import { Spaceship } from "../src/app/components/atoms/Spaceship/Spaceship";
 import { LanguageButton } from "./app/components/molecules/LanguageButton/LanguageButton";
+import { Star } from "../src/app/components/atoms/Star/Star";
+import { Button } from "../src/app/components/atoms/Button/Button";
+import { Spaceship } from "../src/app/components/atoms/Spaceship/Spaceship";
 import "./App.scss";
 
 function App ({ t }) {
@@ -22,6 +23,7 @@ function App ({ t }) {
 				<Header/>
 				<main>
 					<h1>{t("header.hi")}</h1>
+					<Button text="navbar.continue"></Button>
 					<LanguageButton></LanguageButton>
 				</main>
 				<Footer/>
