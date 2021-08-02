@@ -1,0 +1,39 @@
+@import '../../../../assets/stylesheets/settings/variables';
+@import '../../../../assets/stylesheets/settings/toRem';
+@import '../../../../assets/stylesheets/settings/mixins';
+
+.navbar {
+    max-width: toRem(175);
+    padding: toRem(24) 0;
+    border-top: toRem(2) solid $primary-color;
+    border-bottom: toRem(4) solid $primary-color;
+    background-color: $primary-color-light;
+
+    .social-networks {
+        display: flex;
+
+        @media (min-width: 992px) {
+            display: none
+        }
+    }
+
+    &__list-item {
+        &:hover {
+            .navbar__link {
+                color: $primary-color-light;
+                background-color: $primary-color;
+            }
+        }
+    }
+
+    &__link {
+        @include secondary-font;
+        width: 100%;
+        display: block;
+        padding: toRem(8) toRem(18);
+        color: $primary-color;
+        font-size: $font-size-m;
+        text-decoration: none;
+        line-height: toRem(24);
+    }
+}

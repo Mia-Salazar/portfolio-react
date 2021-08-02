@@ -2,7 +2,16 @@
 @import '../../../../assets/stylesheets/settings/toRem';
 
 .social-item {
-    margin-right: toRem(16);
+    margin-left: toRem(8);
+
+    @media (min-width: 992px) {
+        margin-right: toRem(16);
+        margin-left: 0;
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
 
     &:hover {
         .social-item__link {
@@ -12,10 +21,6 @@
         .social-item__icon {
             color: $primary-color-light;
         }
-    }
-
-    &:last-of-type {
-        margin-right: 0;
     }
 
     &__link {

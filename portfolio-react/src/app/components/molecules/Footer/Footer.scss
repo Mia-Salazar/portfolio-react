@@ -1,15 +1,5 @@
 @import '../../../../assets/stylesheets/settings/toRem';
 
-.footer {
-    position: absolute;
-    bottom: toRem(16);
-    right: 0;
-
-    @media (max-width: 991px) {
-        display: none;
-    }
-
-    &__social-container {
-        display: flex;
-    }
+.social-networks {
+    display: flex;
 }

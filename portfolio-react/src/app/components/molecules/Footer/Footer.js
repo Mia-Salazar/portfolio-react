@@ -11,15 +11,13 @@ export const Footer = () => {
 		{icon: "fa-medium-m", link: "https://marasalazar.medium.com/", aria: "Medium"}
 	];
 	return (
-		<footer className="footer">
-			<ul className="footer__social-container">
-				{
-					socialNetwork.map((social) => {
-						return <SocialNetwork key={social.icon} icon={social.icon} link={social.link} ariaLabel={social.aria}></SocialNetwork>;
-					})
-				}
-			</ul>
-		</footer>
+		<ul className="social-networks">
+			{
+				socialNetwork.map((social) => {
+					return <SocialNetwork key={social.icon} icon={social.icon} link={social.link} ariaLabel={social.aria}></SocialNetwork>;
+				})
+			}
+		</ul>
 	);
 };
 
