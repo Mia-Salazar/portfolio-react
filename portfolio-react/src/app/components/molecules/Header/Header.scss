@@ -2,6 +2,8 @@
 @import '../../../../assets/stylesheets/settings/toRem';
 
 .header {
+    z-index: $z-index-lg;
+    
     &__title-container {
         width: fit-content;
         margin: 0 auto;

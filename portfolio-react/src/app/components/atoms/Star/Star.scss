@@ -5,9 +5,15 @@
     display: block;
     background-color: $white;
     border-radius: 50%;
-    z-index: $z-index-infra;
+    z-index: $z-index-normal;
+    transition: box-shadow 0s  linear;
+    box-shadow: none;
 
     @media (max-width: 767px) {
         transform: scale(0.75);
+    }
+
+    &:hover {
+        box-shadow: 0 0 4px 3px #fff, 0 0 4px 1px #fff, 0 0 9px 0px #fff;
     }
 }
