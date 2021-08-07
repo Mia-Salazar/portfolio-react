@@ -20,28 +20,28 @@ const App = () =>{
 	};
 	const numberOfStarts = Math.floor(Math.random() * 50) + 20;
 	return (
-		<div className="wrapper">
-			<div className="wrapper__stars-container">
+		<>
+			<div className="stars-container">
 				{Array.from(Array(numberOfStarts), (e, i) => {
 					return <Star key={i}></Star>;
 				})}
 			</div>
 			<Spaceship/>
-			<div className="all-content">
-				<Header open={menuOpen} openFunction={openMenu} openFirstTime={menuOpenFirstTime}/>
-				<main className="main">
+			<Header open={menuOpen} openFunction={openMenu} openFirstTime={menuOpenFirstTime}/>
+			<div className="main">
+				<main>
 					{/* TODO: Continue button only on root route */}
-					<div className="main__menu">
-						{ menuOpen && <Navbar/> }
-						{ menuOpen && menuOpenFirstTime && <Button text="navbar.back" functionality={openMenu}></Button> }
-						{ !menuOpen && menuOpenFirstTime && <Button text="navbar.menu" functionality={openMenu} modificator="back"></Button> }
-					</div>
 				</main>
-				<footer className="footer">
-					<Footer/>
-				</footer>
+				<div className="navbar-container">
+					{ menuOpen && <Navbar/> }
+					{ menuOpen && menuOpenFirstTime && <Button text="navbar.back" functionality={openMenu}></Button> }
+					{ !menuOpen && menuOpenFirstTime && <Button text="navbar.menu" functionality={openMenu} modificator="back"></Button> }
+				</div>
 			</div>
-		</div>
+			<footer className="footer">
+				<Footer/>
+			</footer>
+		</>
 	);
 }; 
 
