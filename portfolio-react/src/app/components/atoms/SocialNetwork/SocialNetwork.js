@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import i18n from "../../../../i18n";
 
+import i18n from "../../../../i18n";
 import "./SocialNetwork.scss";
 
 export const SocialNetwork = ({icon, link, ariaLabel}) => {

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { withTranslation } from "react-i18next";
 
 import { Star } from "../src/app/components/atoms/Star/Star";
@@ -8,21 +8,25 @@ import { Footer } from "../src/app/components/molecules/Footer/Footer";
 import { Navbar } from "../src/app/components/organisms/Navbar/Navbar";
 import "./App.scss";
 
-function App ({ t }) {
+const App = () =>{
+	const [menuOpen, setMenuOpen] = useState(false);
+	const openMenu = () => {
+		setMenuOpen(!menuOpen);
+	};
 	const numberOfStarts = Math.floor(Math.random() * 50) + 20;
 	return (
 		<div className="wrapper">
 			<div className="wrapper__stars-container">
-				{Array.from(Array(numberOfStarts), (i) => {
+				{Array.from(Array(numberOfStarts), (e, i) => {
 					return <Star key={i}></Star>;
 				})}
 			</div>
 			<Spaceship/>
 			<div className="all-content">
-				<Header/>
+				<Header open={menuOpen} openFunction={openMenu} />
 				<main>
-					<h1>{t("header.hi")}</h1>
-					<Navbar/>
+					{/* TODO: Continue button only on root route */}
+					{ menuOpen && <Navbar/> }
 				</main>
 				<footer className="footer">
 					<Footer/>
@@ -30,6 +34,6 @@ function App ({ t }) {
 			</div>
 		</div>
 	);
-} 
+}; 
 
 export default withTranslation()(App);
