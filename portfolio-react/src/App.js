@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { withTranslation } from "react-i18next";
 
+import { Button } from "../src/app/components/atoms/Button/Button";
 import { Star } from "../src/app/components/atoms/Star/Star";
 import { Spaceship } from "../src/app/components/atoms/Spaceship/Spaceship";
 import { Header } from "../src/app/components/molecules/Header/Header";
@@ -10,7 +11,11 @@ import "./App.scss";
 
 const App = () =>{
 	const [menuOpen, setMenuOpen] = useState(false);
+	const [menuOpenFirstTime, setMenuOpenFirstTime] = useState(false);
 	const openMenu = () => {
+		if (!menuOpenFirstTime) {
+			setMenuOpenFirstTime(true);
+		}
 		setMenuOpen(!menuOpen);
 	};
 	const numberOfStarts = Math.floor(Math.random() * 50) + 20;
@@ -23,10 +28,14 @@ const App = () =>{
 			</div>
 			<Spaceship/>
 			<div className="all-content">
-				<Header open={menuOpen} openFunction={openMenu} />
-				<main>
+				<Header open={menuOpen} openFunction={openMenu} openFirstTime={menuOpenFirstTime}/>
+				<main className="main">
 					{/* TODO: Continue button only on root route */}
-					{ menuOpen && <Navbar/> }
+					<div className="main__menu">
+						{ menuOpen && <Navbar/> }
+						{ menuOpen && menuOpenFirstTime && <Button text="navbar.back" functionality={openMenu}></Button> }
+						{ !menuOpen && menuOpenFirstTime && <Button text="navbar.menu" functionality={openMenu} modificator="back"></Button> }
+					</div>
 				</main>
 				<footer className="footer">
 					<Footer/>

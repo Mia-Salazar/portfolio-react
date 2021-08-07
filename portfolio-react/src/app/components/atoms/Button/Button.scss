@@ -14,4 +14,10 @@
         background-color: $primary-color;
         color: $primary-color-light;
     }
+
+    &--back {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
 }

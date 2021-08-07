@@ -9,6 +9,11 @@
     border-bottom: toRem(4) solid $primary-color;
     background-color: $primary-color-light;
 
+    @media (max-width: 991px) {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     .social-networks {
         display: flex;
 

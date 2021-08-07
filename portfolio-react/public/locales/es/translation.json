@@ -1,7 +1,4 @@
 {
-    "header":{
-        "hi": "ejemplo"
-    },
     "footer": "Sígueme en {{key}}",
     "navbar": {
         "continue": "Continuar",
@@ -10,6 +7,8 @@
         "skills": "Habilidades",
         "awards": "Premios & articulos",
         "contact": "Contacto",
-        "lang": "Cambiar idioma"
+        "lang": "Cambiar idioma",
+        "back": "Atrás",
+        "menu": "Menú"
     }
 }    
