@@ -14,7 +14,7 @@ Button.propTypes = {
 	text: PropTypes.string.isRequired,
 	type: PropTypes.string,
 	functionality: PropTypes.func,
-	modificator: PropTypes.String
+	modificator: PropTypes.string
 };
 
 Button.displayName = "Button";
