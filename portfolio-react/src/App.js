@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { withTranslation } from "react-i18next";
 
 import { Star } from "../src/app/components/atoms/Star/Star";
 import { Spaceship } from "../src/app/components/atoms/Spaceship/Spaceship";
@@ -7,7 +8,7 @@ import { Footer } from "../src/app/components/molecules/Footer/Footer";
 import { Navbar } from "../src/app/components/organisms/Navbar/Navbar";
 import "./App.scss";
 
-const App = () => {
+const App = () =>{
 	const [menuOpen, setMenuOpen] = useState(false);
 	const openMenu = () => {
 		setMenuOpen(!menuOpen);
@@ -35,4 +36,4 @@ const App = () => {
 	);
 }; 
 
-export default App;
+export default withTranslation()(App);
