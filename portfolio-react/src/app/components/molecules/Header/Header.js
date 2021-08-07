@@ -4,16 +4,16 @@ import PropTypes from "prop-types";
 import { Button } from "../../atoms/Button/Button";
 import "./Header.scss";
 
-export const Header = ({open, openFunction}) => {
+export const Header = ({open, openFunction, openFirstTime}) => {
 	return (
-		<header className="header">
+		<header className={open || openFirstTime ? "header header--open": "header" }>
 			<div className="header__title-container">
 				<h1 className="header__title">
                     Mia Salazar
 				</h1>
 			</div>
 			<h2  className="header__subtitle">Galactic Front-end developer</h2>
-			{!open && <Button text="navbar.continue" functionality={openFunction}></Button>}
+			{!open && !openFirstTime && <Button text="navbar.continue" functionality={openFunction}></Button>}
 		</header>
 	);
 };
@@ -22,5 +22,6 @@ export default Header;
 
 Header.propTypes = {
 	openFunction: PropTypes.func.isRequired,
-	open: PropTypes.bool.isRequired
+	open: PropTypes.bool.isRequired,
+	openFirstTime: PropTypes.bool.isRequired
 };

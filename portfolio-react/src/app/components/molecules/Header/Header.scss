@@ -7,6 +7,22 @@
     flex-direction: column;
     align-items: center;
     z-index: $z-index-lg;
+
+    &--open {
+        .header__title-container {
+            @media (max-width: 991px) {
+                display: none;
+            }
+        }
+
+        .header__subtitle {
+            @media (max-width: 991px) {
+                display: none;
+            }
+        }
+
+        
+    }
     
     &__title-container {
         width: fit-content;
