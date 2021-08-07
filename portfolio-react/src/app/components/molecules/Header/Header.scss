@@ -3,6 +3,9 @@
 @import '../../../../assets/stylesheets/settings/mixins';
 
 .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     z-index: $z-index-lg;
     
     &__title-container {
@@ -41,5 +44,9 @@
         @include main-font;
         color: $primary-color;
         text-align: center;
+    }
+
+    .button {
+        margin-top: 24px;
     }
 }

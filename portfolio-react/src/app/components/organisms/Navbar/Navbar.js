@@ -20,7 +20,7 @@ export const Navbar = () => {
 				{
 					navLinks.map((link) => {
 						return(
-							<li className="navbar__list-item" key={link.link}>
+							<li className="navbar__list-item" key={link.text}>
 								<Link className="navbar__link"  to={link.link}>{i18n.t(link.text)}</Link>
 							</li>
 						);
