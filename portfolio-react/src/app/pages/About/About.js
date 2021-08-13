@@ -1,11 +1,13 @@
 import React from "react";
 
+import { Title } from "../../components/atoms/Title/Title";
 import { Box } from "../../components/atoms/Box/Box";
 import "./About.scss";
 
 export const About = () => {
 	return (
 		<Box>
+			<Title text="footer"/>
 			<p style={{color: "white"}}>HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
 			<p style={{color: "white"}}>HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
 			<p style={{color: "white"}}>HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
