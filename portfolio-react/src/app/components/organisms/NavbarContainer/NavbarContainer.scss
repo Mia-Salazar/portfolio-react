@@ -1,0 +1,12 @@
+@import '../../../../assets/stylesheets/settings/toRem';
+
+.navbar-container {
+    & > .button {
+        display: flex;
+        margin: toRem(24) auto 0 auto;
+
+        @media (min-width: 992px) {
+            display: none;
+        }
+    }
+}
