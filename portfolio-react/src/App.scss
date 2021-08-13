@@ -14,21 +14,6 @@ html {
     overflow: hidden;
 }
 
-.stars-container {
-    z-index: $z-index-infra;
-}
-
-.navbar-container {
-    & > .button {
-        display: flex;
-        margin: toRem(24) auto 0 auto;
-
-        @media (min-width: 992px) {
-            display: none;
-        }
-    }
-}
-
 .content {
     @media (min-width: 992px) {
         display: grid;
