@@ -1,0 +1,10 @@
+@import "../../../../assets/stylesheets/settings/mixins";
+@import "../../../../assets/stylesheets/settings/variables";
+@import '../../../../assets/stylesheets/settings/toRem';
+
+.title {
+    @include secondary-font;
+    margin-top: 0;
+    color: $primary-color;
+    font-weight: 400;
+}
