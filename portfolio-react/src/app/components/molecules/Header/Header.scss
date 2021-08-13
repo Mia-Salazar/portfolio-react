@@ -10,12 +10,16 @@
 
     &--open {
         .header__title-container {
+            transform: scale(0.8);
+
             @media (max-width: 991px) {
                 display: none;
             }
         }
 
         .header__subtitle {
+            transform: scale(0.8);
+
             @media (max-width: 991px) {
                 display: none;
             }
@@ -31,6 +35,7 @@
         border-top: toRem(2) solid $primary-color;
         border-bottom: toRem(4) solid $primary-color;
         background-color: $primary-color-light;
+        transition: all 0.5s;
     }
 
     &__title {
@@ -47,8 +52,9 @@
 
     &__subtitle {
         width: fit-content;
-        margin: toRem(24) auto 0 auto;
+        margin: toRem(18) auto 0 auto;
         background-color: $secondary-color;
+        transition: all 0.5s;
 
         @media (max-width: 767px) {
             max-width: toRem(200);

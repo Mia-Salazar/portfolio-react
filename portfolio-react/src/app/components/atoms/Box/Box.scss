@@ -1,0 +1,30 @@
+@import '../../../../assets/stylesheets/settings/variables';
+@import '../../../../assets/stylesheets/settings/toRem';
+
+.box {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: toRem(24);
+    border-top: toRem(2) solid $primary-color;
+    border-bottom: toRem(4) solid $primary-color;
+    background-color: $primary-color-light;
+
+    &__text-container {
+        height: calc(100vh - 165px - 250px);
+        overflow-y: scroll;
+
+        &::-webkit-scrollbar {
+            width: 12px;
+        }
+            
+        &::-webkit-scrollbar-track {
+            background: $primary-color;
+        }
+        
+        &::-webkit-scrollbar-thumb {
+            background-color: $primary-color-light;
+            border: 3px solid $primary-color;
+        }
+    }
+}

@@ -6,9 +6,9 @@ import { LanguageButton } from "../../molecules/LanguageButton/LanguageButton";
 import i18n from "../../../../i18n";
 import "./Navbar.scss";
 
-export const Navbar = () => {
+export const Navbar = ({functionality}) => {
 	const navLinks = [
-		{link: "", text: "navbar.about"},
+		{link: "/about", text: "navbar.about"},
 		{link: "", text: "navbar.portfolio"},
 		{link: "", text: "navbar.skills"},
 		{link: "", text: "navbar.awards"},
@@ -21,7 +21,7 @@ export const Navbar = () => {
 					navLinks.map((link) => {
 						return(
 							<li className="navbar__list-item" key={link.text}>
-								<Link className="navbar__link"  to={link.link}>{i18n.t(link.text)}</Link>
+								<Link className="navbar__link" to={link.link} onClick={functionality} >{i18n.t(link.text)}</Link>
 							</li>
 						);
 					})
