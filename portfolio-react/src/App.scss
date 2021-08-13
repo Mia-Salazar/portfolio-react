@@ -29,6 +29,15 @@ html {
     }
 }
 
+.content {
+    @media (min-width: 992px) {
+        display: grid;
+        grid-gap: toRem(32);
+        grid-template-columns: toRem(175) 1fr;
+        margin-top: toRem(48);
+    }
+}
+
 .footer {
     position: absolute;
     bottom: toRem(24);

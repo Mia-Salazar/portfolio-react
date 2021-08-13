@@ -10,7 +10,7 @@ const Loader = () => (
 );
 
 ReactDOM.render(
-	<BrowserRouter basename="/cgadmin-react-primeng/">
+	<BrowserRouter basename="/">
 		<Suspense fallback={<Loader />}>
 			<App />
 		</Suspense>
