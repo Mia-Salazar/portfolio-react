@@ -7,6 +7,8 @@ function getWindowDimensions() {
 	};
 }
 
+const hasWindow = typeof window !== "undefined";
+
 export const useWindowDimensions = () => {
 	const [windowDimensions, setWindowDimensions] = useState(
 		getWindowDimensions()
@@ -16,10 +18,9 @@ export const useWindowDimensions = () => {
 		function handleResize() {
 			setWindowDimensions(getWindowDimensions());
 		}
-
 		window.addEventListener("resize", handleResize);
 		return () => window.removeEventListener("resize", handleResize);
-	}, []);
+	}, [hasWindow]);
 
 	return windowDimensions;
 };

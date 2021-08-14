@@ -37,7 +37,7 @@ const App = () => {
 				setMenuOpenFirstTime(true);
 			}
 		}
-	}, []);
+	}, [width]);
 	return (
 		<>
 			<Stars numberOfStarts={numberOfStarts} />
