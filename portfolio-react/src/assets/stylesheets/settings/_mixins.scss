@@ -10,3 +10,9 @@
     font-family: $font-family-secondary;
     text-transform: uppercase;
 }
+
+@mixin text-font {
+    color: $primary-color;
+    font-family: $font-family-secondary;
+    font-weight: 100;
+}

@@ -12,7 +12,8 @@
 
     &__text-container {
         height: calc(100vh - 165px - 250px);
-        overflow-y: scroll;
+        padding-right: toRem(8);
+        overflow-y: auto;
 
         &::-webkit-scrollbar {
             width: 12px;
