@@ -9,6 +9,7 @@ import { Header } from "../src/app/components/molecules/Header/Header";
 import { Footer } from "../src/app/components/molecules/Footer/Footer";
 import { NavbarContainer } from "../src/app/components/organisms/NavbarContainer/NavbarContainer";
 import { About } from "../src/app/pages/About/About";
+import { Skills } from "../src/app/pages/Skills/Skills";
 import { useWindowDimensions } from "./app/utils/getWidth";
 import "./App.scss";
 
@@ -49,6 +50,7 @@ const App = () => {
 					{ width >= 1024 || (width < 1024 && !menuOpen) ?
 						<Switch>
 							<Route exact path="/about" component={About} />
+							<Route exact path="/skills" component={Skills} />
 						</Switch>
 						: ""
 					}

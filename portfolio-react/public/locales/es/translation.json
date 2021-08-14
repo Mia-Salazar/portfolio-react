@@ -13,6 +13,9 @@
     },
     "about": {
         "textOne": "Soy Mia Salazar, una desarrolladora Front-End galáctica que lleva navegando por la galaxia realizando buen código desde 2018, calendario terrestre.",
-        "textTwo": "Como desarrolladora principal de una nave espacial de la Alianza de Programadores, disfruto conociendo los lenguajes que existen en el universo, descubriendo mejores formas de solucionar problemas, trabajando en equipo con los demás tripulantes de la nave espacial y estando en constante aprendizaje."
+        "textTwo": "Como desarrolladora principal de una nave espacial de la Alianza Galáctica de Programadores, disfruto conociendo los lenguajes que existen en el universo, descubriendo mejores formas de solucionar problemas, trabajando en equipo con los demás tripulantes de la nave espacial y estando en constante aprendizaje."
+    },
+    "skills": {
+        "textOne": "Como parte de la Alianza Galáctica de Programadores, cuento con una serie de habilidades y conocimientos en lenguajes."
     }
 }    
