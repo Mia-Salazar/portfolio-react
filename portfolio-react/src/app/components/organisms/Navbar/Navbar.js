@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 import { Footer } from "../../molecules/Footer/Footer";
 import { LanguageButton } from "../../molecules/LanguageButton/LanguageButton";
@@ -10,7 +11,7 @@ export const Navbar = ({functionality}) => {
 	const navLinks = [
 		{link: "/about", text: "navbar.about"},
 		{link: "", text: "navbar.portfolio"},
-		{link: "", text: "navbar.skills"},
+		{link: "/skills", text: "navbar.skills"},
 		{link: "", text: "navbar.awards"},
 		{link: "", text: "navbar.contact"}
 	];
@@ -32,5 +33,11 @@ export const Navbar = ({functionality}) => {
 		</nav>
 	);
 };
+
+Navbar.propTypes = {
+	functionality: PropTypes.func.isRequired,
+};
+
+Navbar.displayName = "Navbar";
 
 export default Navbar;
