@@ -1,0 +1,10 @@
+@import '../../../../assets/stylesheets/settings/toRem';
+
+.level-group {
+    @media (min-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-items: center;
+        grid-gap: toRem(16);
+    }
+}
