@@ -16,6 +16,10 @@
         "textTwo": "Como desarrolladora principal de una nave espacial de la Alianza Galáctica de Programadores, disfruto conociendo los lenguajes que existen en el universo, descubriendo mejores formas de solucionar problemas, trabajando en equipo con los demás tripulantes de la nave espacial y estando en constante aprendizaje."
     },
     "skills": {
-        "textOne": "Como parte de la Alianza Galáctica de Programadores, cuento con una serie de habilidades y conocimientos en lenguajes."
+        "textOne": "Como parte de la Alianza Galáctica de Programadores, cuento con una serie de habilidades y conocimientos en lenguajes.",
+        "low": "Bajo",
+        "medium": "Medio",
+        "high": "Alto",
+        "veryHigh": "Muy alto"
     }
 }    

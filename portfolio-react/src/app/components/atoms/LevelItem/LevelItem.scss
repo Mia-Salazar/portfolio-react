@@ -8,9 +8,18 @@
     border: toRem(2) solid $primary-color;
     color: $primary-color;
     font-family: $font-family-secondary;
+    text-align: center;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 
     &--active {
         background-color: $primary-color;
-        color: transparent;
+        color: $primary-color-light;
+
+        @media (max-width: 768px) {
+            display: block;
+        }
     }
 }

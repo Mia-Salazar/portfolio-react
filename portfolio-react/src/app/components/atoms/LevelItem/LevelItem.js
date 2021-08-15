@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import i18n from "../../../i18n";
-import "./Skills.scss";
+import i18n from "../../../../i18n";
+import "./LevelItem.scss";
 
 export const LevelItem = ({text, active}) => {
 	return (
