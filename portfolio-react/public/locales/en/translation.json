@@ -20,6 +20,12 @@
         "low": "Low",
         "medium": "Medium",
         "high": "High",
-        "veryHigh": "Very high"
+        "veryHigh": "Very high",
+        "html": "HTML5, CSS3, SCSS, SASS, Responsive Web Design",
+        "js": "Javascript & Typescript",
+        "framework": "Angular & React",
+        "css": "Bootstrap 4, Materialize, Bulma, Angular Material, Tailwind...",
+        "accesibility": "Accesibility",
+        "redux": "Redux"
     }
 } 
