@@ -12,7 +12,7 @@
         "menu": "Menu"
     },
     "about": {
-        "textOne": "I'm Mia Salazar, a galactic Front-End developer who has been navigating the galaxy doing good code since 2018, terrestrial calendar. ",
+        "textOne": "I'm Mía Salazar, a galactic Front-End developer who has been navigating the galaxy doing good code since 2018, terrestrial calendar. ",
         "textTwo": "As a spacecraft pilot for the Galatic Programmers Alliance, I enjoy learning about the languages ​​that exist in the universe, discovering better ways to solve problems, working as a team with the other crew members of the spacecraft, and being in constant learning."
     },
     "skills": {
@@ -25,7 +25,7 @@
         "js": "Javascript & Typescript",
         "framework": "Angular & React",
         "css": "Bootstrap 4, Materialize, Bulma, Angular Material, Tailwind...",
-        "accesibility": "Accesibility",
+        "accessibility": "Accessibility",
         "redux": "Redux"
     }
 } 
