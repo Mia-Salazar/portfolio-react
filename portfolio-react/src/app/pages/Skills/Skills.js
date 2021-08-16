@@ -17,6 +17,7 @@ export const Skills = () => {
 			<SkillItem levelStatus="high" text="skills.css" />
 			<SkillItem levelStatus="medium" text="skills.accessibility" />
 			<SkillItem levelStatus="low" text="skills.redux" />
+			<p className="text">{i18n.t("skills.textTwo")}</p>
 		</Box>
 	);
 };
