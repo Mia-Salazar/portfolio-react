@@ -1,0 +1,18 @@
+@import '../../../../assets/stylesheets/settings/variables';
+@import '../../../../assets/stylesheets/settings/mixins';
+@import '../../../../assets/stylesheets/settings/toRem';
+
+.skill-item {
+    margin-bottom: toRem(16);
+
+    &:last-of-type {
+        margin-bottom: 0
+    }
+
+    &__title {
+        @include text-font;
+
+        margin-bottom: toRem(12);
+        font-weight: 400;
+    }
+}
