@@ -6,7 +6,7 @@
     margin-bottom: toRem(16);
 
     &:last-of-type {
-        margin-bottom: 0
+        margin-bottom: toRem(32);
     }
 
     &__title {

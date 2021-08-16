@@ -17,6 +17,7 @@
     },
     "skills": {
         "textOne": "Como parte de la Alianza Galáctica de Programadores, cuento con una serie de habilidades y conocimientos en lenguajes.",
+        "textTwo": "Dentro de la Alianza Galáctica de Programadores, valoramos crear arquitecturas escalables, código limpio, mantenible y reutilizable, la escucha activa de nuevas formas de programar y la constante mejora.",
         "low": "Bajo",
         "medium": "Medio",
         "high": "Alto",

@@ -17,6 +17,7 @@
     },
     "skills": {
         "textOne": "As part of the Galactic Alliance of Programmers, I have a number of skills and knowledge in languages.",
+        "textTwo": "In the Galactic Alliance of Programmers, we value creating scalable architectures, clean, maintainable and reusable code, active listening to new ways of programming and constant improvement.",
         "low": "Low",
         "medium": "Medium",
         "high": "High",
