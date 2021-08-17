@@ -3,7 +3,6 @@ import React from "react";
 import { Title } from "../../components/atoms/Title/Title";
 import { Box } from "../../components/atoms/Box/Box";
 import { SkillItem } from "../../components/organisms/SkillItem/SkillItem";
-import { PortfolioItem } from "../../components/molecules/PortfolioItem/PortfolioItem";
 import i18n from "../../../i18n";
 import "./Skills.scss";
 
