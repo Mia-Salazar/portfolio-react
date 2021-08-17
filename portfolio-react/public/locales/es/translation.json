@@ -28,5 +28,9 @@
         "css": "Bootstrap 4, Materialize, Bulma, Angular Material, Tailwind...",
         "accessibility": "Accesibilidad",
         "redux": "Redux"
+    },
+    "portfolio": {
+        "visit": "Visitar",
+        "info": "Info"
     }
 }    

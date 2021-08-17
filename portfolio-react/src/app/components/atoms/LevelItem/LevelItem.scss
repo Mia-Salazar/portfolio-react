@@ -9,6 +9,7 @@
     border: toRem(2) solid $primary-color;
     color: $primary-color;
     font-family: $font-family-secondary;
+    font-weight: 600;
     text-align: center;
 
     @media (max-width: 768px) {

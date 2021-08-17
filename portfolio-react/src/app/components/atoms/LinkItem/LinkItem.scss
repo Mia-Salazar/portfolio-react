@@ -2,26 +2,18 @@
 @import '../../../../assets/stylesheets/settings/toRem';
 @import '../../../../assets/stylesheets/settings/mixins';
 
-.button {
+.link-item {
     @include main-font;
     padding: toRem(8) toRem(16);
     background-color: $primary-color-light;
+    border: 1px solid $primary-color;
     color: $primary-color;
-    border: none;
+    text-align: center;
+    text-decoration: none;
     cursor: pointer;
 
     &:hover {
         background-color: $primary-color;
         color: $primary-color-light;
-    }
-
-    &--back {
-        position: absolute;
-        top: 0;
-        right: toRem(24);
-    }
-
-    &--ghost {
-        border: 1px solid $primary-color;
     }
 }
