@@ -26,7 +26,7 @@ export const PortfolioItem = ({item}) => {
 };
 
 PortfolioItem.propTypes = {
-	levelStatus: PropTypes.object.isRequired
+	item: PropTypes.object.isRequired
 };
 
 PortfolioItem.displayName = "PortfolioItem";
