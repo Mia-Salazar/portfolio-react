@@ -21,6 +21,17 @@
         right: toRem(24);
     }
 
+    &--filled {
+        background-color: $primary-color;
+        color: $primary-color-light;
+
+        &:hover {
+            background-color: $primary-color-light;
+            border: 1px solid $primary-color;
+            color: $primary-color;
+        }
+    }
+
     &--ghost {
         border: 1px solid $primary-color;
     }

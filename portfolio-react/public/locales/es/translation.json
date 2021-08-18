@@ -32,6 +32,7 @@
     "portfolio": {
         "visit": "Visitar",
         "info": "Info",
+        "load": "Cargar más",
         "subtitle": "En este panel puedes ver las misiones en las que he participado dentro de la Alianza Galáctica de Programadores. Algunas misiones sucedieron en el cúmulo de estrellas de React, otros en el de Angular y algunos menos en el de Vue. Dentro de cada misión, he empleado diferentes lenguajes y habilidades."
     }
 }    
