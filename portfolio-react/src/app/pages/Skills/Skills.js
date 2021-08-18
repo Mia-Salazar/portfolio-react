@@ -10,6 +10,7 @@ export const Skills = () => {
 	return (
 		<Box>
 			<Title text="navbar.skills"/>
+			<p className="text">{i18n.t("skills.textTwo")}</p>
 			<p className="text">{i18n.t("skills.textOne")}</p>
 			<SkillItem levelStatus="veryHigh" text="skills.html" />
 			<SkillItem levelStatus="medium" text="skills.js" />
@@ -17,7 +18,6 @@ export const Skills = () => {
 			<SkillItem levelStatus="high" text="skills.css" />
 			<SkillItem levelStatus="medium" text="skills.accessibility" />
 			<SkillItem levelStatus="low" text="skills.redux" />
-			<p className="text">{i18n.t("skills.textTwo")}</p>
 		</Box>
 	);
 };

@@ -10,7 +10,7 @@ import "./Navbar.scss";
 export const Navbar = ({functionality}) => {
 	const navLinks = [
 		{link: "/about", text: "navbar.about"},
-		{link: "", text: "navbar.portfolio"},
+		{link: "/portfolio", text: "navbar.portfolio"},
 		{link: "/skills", text: "navbar.skills"},
 		{link: "", text: "navbar.awards"},
 		{link: "", text: "navbar.contact"}
