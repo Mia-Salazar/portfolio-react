@@ -16,7 +16,7 @@
         "textTwo": "Como desarrolladora principal de una nave espacial de la Alianza Galáctica de Programadores, disfruto conociendo los lenguajes que existen en el universo, descubriendo mejores formas de solucionar problemas, trabajando en equipo con los demás tripulantes de la nave espacial y estando en constante aprendizaje."
     },
     "skills": {
-        "textOne": "Como parte de la Alianza Galáctica de Programadores, cuento con una serie de habilidades y conocimientos en lenguajes.",
+        "textOne": "Además, como parte de esta alianza, cuento con una serie de habilidades y conocimientos en lenguajes.",
         "textTwo": "Dentro de la Alianza Galáctica de Programadores, valoramos crear arquitecturas escalables, código limpio, mantenible y reutilizable, la escucha activa de nuevas formas de programar y la constante mejora.",
         "low": "Bajo",
         "medium": "Medio",
@@ -31,6 +31,7 @@
     },
     "portfolio": {
         "visit": "Visitar",
-        "info": "Info"
+        "info": "Info",
+        "subtitle": "En este panel puedes ver las misiones en las que he participado dentro de la Alianza Galáctica de Programadores. Algunas misiones sucedieron en el cúmulo de estrellas de React, otros en el de Angular y algunos menos en el de Vue. Dentro de cada misión, he empleado diferentes lenguajes y habilidades."
     }
 }    

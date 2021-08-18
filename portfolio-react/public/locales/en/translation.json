@@ -16,7 +16,7 @@
         "textTwo": "As a spacecraft pilot for the Galatic Programmers Alliance, I enjoy learning about the languages ​​that exist in the universe, discovering better ways to solve problems, working as a team with the other crew members of the spacecraft, and being in constant learning."
     },
     "skills": {
-        "textOne": "As part of the Galactic Alliance of Programmers, I have a number of skills and knowledge in languages.",
+        "textOne": "Besides, as part of this alliance, I have a number of skills and knowledge in languages.",
         "textTwo": "In the Galactic Alliance of Programmers, we value creating scalable architectures, clean, maintainable and reusable code, active listening to new ways of programming and constant improvement.",
         "low": "Low",
         "medium": "Medium",
@@ -31,6 +31,7 @@
     },
     "portfolio": {
         "visit": "Visit",
-        "info": "Info"
+        "info": "Info",
+        "subtitle": "In this panel you can see the missions in which I have participated within the Galactic Alliance of Programmers. Some missions happened in React's star cluster, others in Angular, and some less in Vue's. Within each mission, I have used different languages ​​and skills"
     }
 } 

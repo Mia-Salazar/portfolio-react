@@ -10,6 +10,7 @@ import { Footer } from "../src/app/components/molecules/Footer/Footer";
 import { NavbarContainer } from "../src/app/components/organisms/NavbarContainer/NavbarContainer";
 import { About } from "../src/app/pages/About/About";
 import { Skills } from "../src/app/pages/Skills/Skills";
+import { Portfolio } from "../src/app/pages/Portfolio/Portfolio";
 import { useWindowDimensions } from "./app/utils/getWidth";
 import "./App.scss";
 
@@ -51,6 +52,7 @@ const App = () => {
 						<Switch>
 							<Route exact path="/about" component={About} />
 							<Route exact path="/skills" component={Skills} />
+							<Route exact path="/portfolio" component={Portfolio} />
 						</Switch>
 						: ""
 					}
