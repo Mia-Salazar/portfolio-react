@@ -37,6 +37,8 @@
         "vue": "Vuejs",
         "react": "Reactjs",
         "angular": "Angular",
+        "old": "My past before space",
+        "oldText":"Before I became a Galactic Front-end and joined the Galatian Programmers Alliance, I used to watch out for good code on Planet Earth as a superhero. If you are curious to know that past, take a look at my old portfolio.",
         "subtitle": "In this panel you can see the missions in which I have participated within the Galactic Alliance of Programmers. Some missions happened in React's star cluster, others in Angular, and some less in Vue's. Within each mission, I have used different languages ​​and skills"
     }
 } 

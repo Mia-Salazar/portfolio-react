@@ -49,9 +49,9 @@ export const PortfolioContainer = () => {
 		setPortfolioContent(filterFunction(filter, portfolioArray));
 	}, [filter]);
 	return (
-		<>
+		<div className="portfolio-items">
 			<Filter buttonFunctionality={changeFilter} filterActive={filter}/>
-			<div className="portfolio-container">
+			<div className="portfolio-items__container">
 				{
 					portfolioContent.map((item, index) => {
 						return(
@@ -64,7 +64,7 @@ export const PortfolioContainer = () => {
 				loadMore &&
                     <Button text="portfolio.load" modificator="filled" functionality={loadMoreFunc}/>
 			}
-		</>
+		</div>
 	);
 };
 

@@ -19,7 +19,13 @@ html {
         display: grid;
         grid-gap: toRem(32);
         grid-template-columns: toRem(175) 1fr;
-        margin-top: toRem(48);
+        margin-top: toRem(32);
+    }
+
+    @media (min-width: 1200px) {
+        max-width: toRem(1000);
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 

@@ -1,15 +1,19 @@
 @import '../../../../assets/stylesheets/settings/toRem';
 
-.portfolio-container {
-    margin-bottom: toRem(8);
+.portfolio-items {
+    margin-bottom: toRem(42);
 
-    @media (min-width: 768px) {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: toRem(16);
-    }
+    &__container {
+        margin-bottom: toRem(8);
 
-    @media (min-width: 1100px) {
-        grid-template-columns: 1fr 1fr 1fr;
+        @media (min-width: 768px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: toRem(16);
+        }
+    
+        @media (min-width: 1100px) {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
     }
 }
