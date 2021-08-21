@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 
 import { Button } from "../../atoms/Button/Button";
 import { LinkItem } from "../../atoms/LinkItem/LinkItem";
-import i18n from "../../../../i18n";
 import "./PortfolioItem.scss";
 
 export const PortfolioItem = ({item}) => {
@@ -14,8 +13,8 @@ export const PortfolioItem = ({item}) => {
 	return (
 		<article className={moreInfoOpen ? "portfolio-item portfolio-item--active": "portfolio-item" }>
 			<figure className="portfolio-item__img-container">
-				<img className="portfolio-item__img" alt={i18n.t(item.alt)} src={item.src}/> 
-				<figcaption className="portfolio-item__img-text">{i18n.t(item.text)} </figcaption>
+				<img className="portfolio-item__img" alt="" src={item.src}/> 
+				<figcaption className="portfolio-item__img-text">{item.text} </figcaption>
 			</figure>
 			<div className="portfolio-item__button-container">
 				<Button text="portfolio.info" modificator="ghost" functionality={getMoreInfo}/>
