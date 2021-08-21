@@ -10,7 +10,7 @@
     border: none;
     cursor: pointer;
 
-    &:hover {
+    &:hover, &--selected {
         background-color: $primary-color;
         color: $primary-color-light;
     }

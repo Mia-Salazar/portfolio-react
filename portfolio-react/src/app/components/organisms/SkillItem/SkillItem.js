@@ -15,7 +15,8 @@ export const SkillItem = ({text, levelStatus}) => {
 };
 
 SkillItem.propTypes = {
-	functionality: PropTypes.func.isRequired,
+	text: PropTypes.string.isRequired,
+	levelStatus: PropTypes.string.isRequired,
 };
 
 SkillItem.displayName = "SkillItem";

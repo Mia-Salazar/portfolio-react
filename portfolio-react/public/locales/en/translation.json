@@ -33,6 +33,10 @@
         "visit": "Visit",
         "info": "Info",
         "load": "Load more",
+        "all": "Todos",
+        "vue": "Vuejs",
+        "react": "Reactjs",
+        "angular": "Angular",
         "subtitle": "In this panel you can see the missions in which I have participated within the Galactic Alliance of Programmers. Some missions happened in React's star cluster, others in Angular, and some less in Vue's. Within each mission, I have used different languages ​​and skills"
     }
 } 
