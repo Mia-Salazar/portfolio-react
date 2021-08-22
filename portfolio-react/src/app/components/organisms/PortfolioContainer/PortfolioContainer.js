@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import PropTypes from "prop-types";
 
 import { portfolioFilter } from "../../../utils/portfolioFilter";
 import { portfolioArray } from "../../../utils/portfolioContent";
@@ -68,10 +67,6 @@ export const PortfolioContainer = () => {
 			}
 		</div>
 	);
-};
-
-PortfolioContainer.propTypes = {
-	array: PropTypes.array.isRequired,
 };
 
 PortfolioContainer.displayName = "PortfolioContainer";
