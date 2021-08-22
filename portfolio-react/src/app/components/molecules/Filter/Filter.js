@@ -4,13 +4,16 @@ import PropTypes from "prop-types";
 import "./Filter.scss";
 import { Button } from "../../atoms/Button/Button";
 
-export const Filter = ({buttonFunctionality, filterActive}) => {
+export const Filter = ({buttonFunctionality, filterActive, array}) => {
 	return (
 		<div className="filter">
-			<Button text="portfolio.all" functionality={() => buttonFunctionality("all")} modificator={filterActive === "all" ? "selected" : ""}/>
-			<Button text="portfolio.angular" functionality={() => buttonFunctionality("angular")} modificator={filterActive === "angular" ? "selected" : ""}/>
-			<Button text="portfolio.react"functionality={() => buttonFunctionality("reactjs")} modificator={filterActive === "reactjs" ? "selected" : ""}/>
-			<Button text="portfolio.vue"functionality={() => buttonFunctionality("vuejs")} modificator={filterActive === "vuejs" ? "selected" : ""}/>
+			{
+				array.map((item, index) => {
+					return(
+						<Button key={index} text={item.text} functionality={() => buttonFunctionality(item.value)} modificator={filterActive === item.value ? "selected" : ""}/>
+					);
+				})
+			}
 		</div>
 	);
 };
@@ -18,6 +21,7 @@ export const Filter = ({buttonFunctionality, filterActive}) => {
 Filter.propTypes = {
 	buttonFunctionality: PropTypes.func.isRequired,
 	filterActive: PropTypes.string.isRequired,
+	array: PropTypes.array.isRequired,
 };
 
 Filter.displayName = "Filter";
