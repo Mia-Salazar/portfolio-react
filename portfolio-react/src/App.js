@@ -11,6 +11,7 @@ import { NavbarContainer } from "../src/app/components/organisms/NavbarContainer
 import { About } from "../src/app/pages/About/About";
 import { Skills } from "../src/app/pages/Skills/Skills";
 import { Portfolio } from "../src/app/pages/Portfolio/Portfolio";
+import { Awards } from "../src/app/pages/Awards/Awards";
 import { useWindowDimensions } from "./app/utils/getWidth";
 import "./App.scss";
 
@@ -55,8 +56,9 @@ const App = () => {
 					{ width >= 992 || (width < 992 && !menuOpen) ?
 						<Switch>
 							<Route exact path="/about" component={About} />
-							<Route exact path="/skills" component={Skills} />
+							<Route exact path="/awards" component={Awards} />
 							<Route exact path="/portfolio" component={Portfolio} />
+							<Route exact path="/skills" component={Skills} />
 						</Switch>
 						: ""
 					}
