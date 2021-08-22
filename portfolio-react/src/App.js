@@ -18,26 +18,30 @@ const App = () => {
 	const numberOfStarts = Math.floor(Math.random() * 50) + 20;
 	const { width } = useWindowDimensions();
 	const [menuOpen, setMenuOpen] = useState(false);
+	const [activeLink, setActiveLink] = useState("");
 	const [menuOpenFirstTime, setMenuOpenFirstTime] = useState(false);
-	const openMenu = () => {
+	const openMenu = (link) => {
 		if (!menuOpenFirstTime) {
 			setMenuOpenFirstTime(true);
 			setMenuOpen(!menuOpen);
 		}
-		if (menuOpenFirstTime && width < 1024) {
+		if (menuOpenFirstTime && width < 992) {
 			setMenuOpen(!menuOpen);
 		}
+		setActiveLink(link);
 	};
 	useEffect(() => {
 		const location = window.location.pathname;
 		if (location !== "/") {
-			if (width < 1024) {
+			const link = location.replace("/", "");
+			if (width < 992) {
 				setMenuOpen(false);
 				setMenuOpenFirstTime(true);
 			} else {
 				setMenuOpen(true);
 				setMenuOpenFirstTime(true);
 			}
+			setActiveLink(`navbar.${link}`);
 		}
 	}, [width]);
 	return (
@@ -46,9 +50,9 @@ const App = () => {
 			<Spaceship/>
 			<Header open={menuOpen} openFunction={openMenu} openFirstTime={menuOpenFirstTime}/>
 			<div className="content">
-				<NavbarContainer menuOpen={menuOpen} menuOpenFirstTime={menuOpenFirstTime} functionality={openMenu} />
+				<NavbarContainer menuOpen={menuOpen} menuOpenFirstTime={menuOpenFirstTime} functionality={openMenu} activeLink={activeLink}/>
 				<main>
-					{ width >= 1024 || (width < 1024 && !menuOpen) ?
+					{ width >= 992 || (width < 992 && !menuOpen) ?
 						<Switch>
 							<Route exact path="/about" component={About} />
 							<Route exact path="/skills" component={Skills} />

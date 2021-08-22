@@ -32,6 +32,11 @@
     }
 
     &__link {
+        &--active {
+            color: $primary-color-light;
+            background-color: $primary-color;
+        }
+
         @include secondary-font;
         width: 100%;
         display: block;
