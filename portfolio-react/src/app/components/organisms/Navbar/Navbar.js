@@ -12,7 +12,7 @@ export const Navbar = ({functionality, activeLink}) => {
 		{link: "/about", text: "navbar.about"},
 		{link: "/portfolio", text: "navbar.portfolio"},
 		{link: "/skills", text: "navbar.skills"},
-		{link: "", text: "navbar.awards"},
+		{link: "/awards", text: "navbar.awards"},
 		{link: "", text: "navbar.contact"}
 	];
 	return (

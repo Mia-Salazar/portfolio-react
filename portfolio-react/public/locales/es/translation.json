@@ -40,5 +40,11 @@
         "old": "Mi pasado antes del espacio",
         "oldText": "Antes de convertirme en una Front-end galática y entrar en la Alianza Galática de Programadores, solía velar por el buen código en el Planeta Tierra como superheroína. Si tienes curiosidad por conocer ese pasado, échale un vistazo a mi antiguo portfolio.",
         "subtitle": "En este panel puedes ver las misiones en las que he participado dentro de la Alianza Galáctica de Programadores. Algunas misiones sucedieron en el cúmulo de estrellas de React, otros en el de Angular y algunos menos en el de Vue. Dentro de cada misión, he empleado diferentes lenguajes y habilidades."
+    },
+    "awards": {
+        "textOne": "A lo largo de mi carrera en la Alianza, he recibido una serie de condecoraciones. Por otro lado, también he escrito informes sobre las diferentes misiones que he realizado y he participado en varios proyectos terrestres con otros miembros de la Alianza",
+        "awards": "Aquí puedes ver las diferentes condecoraciones que he recibido.",
+        "articles": "Aquí puedes ver los diferentes informes que he escrito, tanto los de índole científico, como los de programación como los de ciberseguridad.",
+        "others": "Aquí puedes ver las entrevistas que me han realizado y otros proyectos en los que he participado en La Tierra."
     }
 }    
