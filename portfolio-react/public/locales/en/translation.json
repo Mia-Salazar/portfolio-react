@@ -5,7 +5,7 @@
         "about": "About me",
         "portfolio": "Portfolio",
         "skills": "Skills",
-        "awards": "Awards & articles",
+        "awards": "Articles & others",
         "contact": "Contact",
         "lang": "Change language",
         "back": "Back",
@@ -42,9 +42,28 @@
         "subtitle": "In this panel you can see the missions in which I have participated within the Galactic Alliance of Programmers. Some missions happened in React's star cluster, others in Angular, and some less in Vue's. Within each mission, I have used different languages ​​and skills."
     },
     "awards": {
-        "textOne": "Throughout my career with the Alliance, I have received a number of awards. On the other hand, I have also written reports on the different missions that I have carried out and have participated in various terrestrial projects with other members of the Alliance.",
-        "awards": "Here you can see the different decorations I have received.",
-        "articles": "Here you can see the different reports that I have written, both scientific, programming and cybersecurity.",
-        "others": "Here you can see the interviews that have been carried out with me and other projects in which I have participated in Earth"
+        "textOne": "Throughout my career with the Alliance, I have received written reports on the different missions that I have carried out and have participated in various terrestrial projects with other members of the Alliance.",
+        "scientificText": "Here you can see the scientific articles that I wrote during my pre-galactic stage.",
+        "articlesText": "Here you can see the different reports that I have written, both scientific, programming and cybersecurity.",
+        "othersText": "Here you can see the interviews that have been carried out with me and other projects in which I have participated in Earth",
+        "corea": "Paper about South Korea and North Korea",
+        "interview": "Interview with IT Gals",
+        "articleOne": "Programming article: A Developer’s Nightmare: Web Accessibility",
+        "articleTwo": "Programming article: Why, Icomoon, why?",
+        "articleThree": "Programming article: How to Structure CSS in Vue Like a Pro",
+        "articleFour": "Programming article: To Angular Material or not to Angular Material?",
+        "articleFive": "Programming article: Cómo dar soporte a IE y no morir en el intento",
+        "articleSix": "Cybersecurity Article: The importance of maintaining the health of your DNS",
+        "articleSiven": "Cybersecurity Article: Discover how to protect your company from web exposition with Kartos",
+        "articleEight": "Cybersecurity Article: Why are Data Leaks dangerous and how to prevent them?",
+        "articleNine": "Cybersecurity Article: Leaked credentials: the importance of employees awareness",
+        "articleTen": "Cybersecurity Article: 5 types of phishing and how to protect from them",
+        "articleEleven": "Cybersecurity Article: 10 Cybersecurity tips for remote workers",
+        "articleTwelve": "Cybersecurity Article: 9 tips to protect yourself from identity theft",
+        "videogame": "Game Jam participant: Treeventure",
+        "videogameTwo": "Game Jam participant: Damng, la balada del capitán",
+        "scientific": "Papers",
+        "others": "Others",
+        "articles": "Articles"
     }
 } 

@@ -5,7 +5,7 @@
         "about": "Sobre mí",
         "portfolio": "Portfolio",
         "skills": "Habilidades",
-        "awards": "Premios & articulos",
+        "awards": "Artículos & otros",
         "contact": "Contacto",
         "lang": "Cambiar idioma",
         "back": "Atrás",
@@ -42,9 +42,28 @@
         "subtitle": "En este panel puedes ver las misiones en las que he participado dentro de la Alianza Galáctica de Programadores. Algunas misiones sucedieron en el cúmulo de estrellas de React, otros en el de Angular y algunos menos en el de Vue. Dentro de cada misión, he empleado diferentes lenguajes y habilidades."
     },
     "awards": {
-        "textOne": "A lo largo de mi carrera en la Alianza, he recibido una serie de condecoraciones. Por otro lado, también he escrito informes sobre las diferentes misiones que he realizado y he participado en varios proyectos terrestres con otros miembros de la Alianza",
-        "awards": "Aquí puedes ver las diferentes condecoraciones que he recibido.",
-        "articles": "Aquí puedes ver los diferentes informes que he escrito, tanto los de índole científico, como los de programación como los de ciberseguridad.",
-        "others": "Aquí puedes ver las entrevistas que me han realizado y otros proyectos en los que he participado en La Tierra."
+        "textOne": "A lo largo de mi carrera en la Alianza, he  he escrito informes sobre las diferentes misiones que he realizado y he participado en varios proyectos terrestres con otros miembros de la Alianza",
+        "scientificText": "Aquí puedes ver los artículos científicos que escribí durante mi etapa pre-galáctica.",
+        "articlesText": "Aquí puedes ver los diferentes informes que he escrito, tanto los de índole científico, como los de programación como los de ciberseguridad.",
+        "othersText": "Aquí puedes ver las entrevistas que me han realizado y otros proyectos en los que he participado en La Tierra.",
+        "corea": "Artículo científico sobre Corea del Sur y Corea del Norte",
+        "interview": "Entrevista que me realizaron en IT Gals",
+        "articleOne": "Artículo sobre programación: A Developer’s Nightmare: Web Accessibility",
+        "articleTwo": "Artículo sobre programación: Why, Icomoon, why?",
+        "articleThree": "Artículo sobre programación: How to Structure CSS in Vue Like a Pro",
+        "articleFour": "Artículo sobre programación: To Angular Material or not to Angular Material?",
+        "articleFive": "Artículo sobre programación: Cómo dar soporte a IE y no morir en el intento",
+        "articleSix": "Artículo sobre ciberseguridad: The importance of maintaining the health of your DNS",
+        "articleSiven": "Artículo sobre ciberseguridad: Discover how to protect your company from web exposition with Kartos",
+        "articleEight": "Artículo sobre ciberseguridad: Why are Data Leaks dangerous and how to prevent them?",
+        "articleNine": "Artículo sobre ciberseguridad: Leaked credentials: the importance of employees awareness",
+        "articleTen": "Artículo sobre ciberseguridad: 5 types of phishing and how to protect from them",
+        "articleEleven": "Artículo sobre ciberseguridad: 10 Cybersecurity tips for remote workers",
+        "articleTwelve": "Artículo sobre ciberseguridad: 9 tips to protect yourself from identity theft",
+        "videogame": "Participante en Game Jam: Treeventure",
+        "videogameTwo": "Participante en Game Jam: Damng, la balada del capitán",
+        "scientific": "Artículos científicos",
+        "others": "Varios",
+        "articles": "Artículos"
     }
 }    
