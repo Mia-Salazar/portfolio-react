@@ -4,12 +4,12 @@
     margin-bottom: toRem(42);
 
     &__container {
-        margin-bottom: toRem(8);
+        margin-bottom: toRem(32);
 
         @media (min-width: 768px) {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-gap: toRem(16);
+            grid-gap: toRem(32);
         }
     
         @media (min-width: 1100px) {

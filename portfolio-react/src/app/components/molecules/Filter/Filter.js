@@ -6,7 +6,7 @@ import { Button } from "../../atoms/Button/Button";
 
 export const Filter = ({buttonFunctionality, filterActive}) => {
 	return (
-		<div>
+		<div className="filter">
 			<Button text="portfolio.all" functionality={() => buttonFunctionality("all")} modificator={filterActive === "all" ? "selected" : ""}/>
 			<Button text="portfolio.angular" functionality={() => buttonFunctionality("angular")} modificator={filterActive === "angular" ? "selected" : ""}/>
 			<Button text="portfolio.react"functionality={() => buttonFunctionality("reactjs")} modificator={filterActive === "reactjs" ? "selected" : ""}/>

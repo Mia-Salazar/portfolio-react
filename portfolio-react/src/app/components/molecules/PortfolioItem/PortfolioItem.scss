@@ -1,9 +1,7 @@
 @import '../../../../assets/stylesheets/settings/toRem';
 @import '../../../../assets/stylesheets/settings/variables';
 
-.portfolio-item {
-    margin: toRem(16) 0;
-    
+.portfolio-item {    
     &--active {
         .portfolio-item__img-container {
             background-color: $primary-color;
