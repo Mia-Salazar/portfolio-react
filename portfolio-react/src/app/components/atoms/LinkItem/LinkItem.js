@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 import i18n from "../../../../i18n";
 import "./LinkItem.scss";
 
-export const LinkItem = ({text, href, target}) => {
+export const LinkItem = ({text, href, target, modificator}) => {
 	return (
-		<a className="link-item" href={href} target={target}>
+		<a className={modificator ? `link-item link-item--${modificator}` : "link-item"} href={href} target={target}>
 			{i18n.t(text)}
 		</a>
 	);

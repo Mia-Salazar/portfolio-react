@@ -16,4 +16,12 @@
         background-color: $primary-color;
         color: $primary-color-light;
     }
+
+    &--simple {
+        display: block;
+        padding: toRem(8);
+        border: none;
+        text-align: start;
+        text-transform: none;
+    }
 }
