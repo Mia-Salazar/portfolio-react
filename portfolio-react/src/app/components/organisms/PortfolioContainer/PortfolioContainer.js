@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 
+import { portfolioFilter } from "../../../utils/portfolioFilter";
 import { portfolioArray } from "../../../utils/portfolioContent";
 import { Button } from "../../atoms/Button/Button";
 import { PortfolioItem } from "../../molecules/PortfolioItem/PortfolioItem";
@@ -50,7 +51,7 @@ export const PortfolioContainer = () => {
 	}, [filter]);
 	return (
 		<div className="portfolio-items">
-			<Filter buttonFunctionality={changeFilter} filterActive={filter}/>
+			<Filter buttonFunctionality={changeFilter} filterActive={filter} array={portfolioFilter}/>
 			<div className="portfolio-items__container">
 				{
 					portfolioContent.map((item, index) => {
