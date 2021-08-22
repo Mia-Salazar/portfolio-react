@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 
+import { portfolioFilter } from "../../../utils/portfolioFilter";
 import { portfolioArray } from "../../../utils/portfolioContent";
 import { Button } from "../../atoms/Button/Button";
 import { PortfolioItem } from "../../molecules/PortfolioItem/PortfolioItem";
 import { Filter } from "../../molecules/Filter/Filter";
 import "./PortfolioContainer.scss";
 
-export const PortfolioContainer = ({array}) => {
+export const PortfolioContainer = () => {
 	const [portfolioContent, setPortfolioContent] = useState(portfolioArray.slice(0, 6));
 	const [loadMore, setLoadMore] = useState(true);
 	const [filter, setFilter] = useState("all");
@@ -51,7 +52,7 @@ export const PortfolioContainer = ({array}) => {
 	}, [filter]);
 	return (
 		<div className="portfolio-items">
-			<Filter buttonFunctionality={changeFilter} filterActive={filter} array={array}/>
+			<Filter buttonFunctionality={changeFilter} filterActive={filter} array={portfolioFilter}/>
 			<div className="portfolio-items__container">
 				{
 					portfolioContent.map((item, index) => {
