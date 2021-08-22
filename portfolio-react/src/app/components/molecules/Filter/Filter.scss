@@ -1,0 +1,10 @@
+@import '../../../../assets/stylesheets/settings/toRem';
+
+.filter {
+    margin-bottom: toRem(24);
+
+    @media (max-width: 625px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
