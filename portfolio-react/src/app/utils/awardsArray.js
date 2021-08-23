@@ -1,6 +1,6 @@
 export const awardsArray = [
 	{ icon: "atom", target: "_blank", text: "awards.corea", href: "http://www.revistacomunicacion.org/pdf/n16/Articulos/A3_GarciaRosales_Analisis_semiotica_profunda_propaganda_Corea.pdf", type: "scientific"},
-	{ icon: "atom", target: "_blank", text: "awards.corea", href: "http://www.revistacomunicacion.org/pdf/n14/Articulos/A5_Salazar-Garcia-Rosales-Analisis-de-los-elementos-estetico-expresivos-en-la-propaganda-de-Corea-del-Sur-y-Corea-del-Norte.pdf", type: "scientific" },
+	{ icon: "atom", target: "_blank", text: "awards.coreaTwo", href: "http://www.revistacomunicacion.org/pdf/n14/Articulos/A5_Salazar-Garcia-Rosales-Analisis-de-los-elementos-estetico-expresivos-en-la-propaganda-de-Corea-del-Sur-y-Corea-del-Norte.pdf", type: "scientific" },
 	{ icon: "microphone", target: "_blank", text: "awards.interview", href: "https://www.youtube.com/watch?v=ljT-Zwobxos&feature=emb_title&ab_channel=ITgals", type: "others" },
 	{ icon: "file-alt", target: "_blank", text: "awards.articleOne", href: "https://medium.com/@marasalazar/developers-nightmare-web-accessibility-52b9a6890403", type: "article" },
 	{ icon: "file-alt", target: "_blank", text: "awards.articleTwo", href: "https://medium.com/@marasalazar/why-icomoon-why-15c2d78ec96e", type: "article"  },

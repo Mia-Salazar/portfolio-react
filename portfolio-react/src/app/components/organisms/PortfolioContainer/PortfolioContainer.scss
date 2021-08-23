@@ -4,6 +4,7 @@
     margin-bottom: toRem(42);
 
     &__container {
+        margin-top: toRem(24);
         margin-bottom: toRem(32);
 
         @media (min-width: 768px) {
