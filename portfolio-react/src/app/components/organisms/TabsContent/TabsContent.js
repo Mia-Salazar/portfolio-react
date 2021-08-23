@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 
+import i18n from "../../../../i18n";
 import { awardsArray } from "../../../utils/awardsArray";
 import { awardsFilter } from "../../../utils/awardsFilter";
 import { Filter } from "../../molecules/Filter/Filter";
@@ -15,12 +16,22 @@ export const TabsContent = () => {
 	const filterFunction = () => {
 		return awardsArray.filter(element => element.type === filter);
 	};
+	const filterTextFunction = () => {
+		if (filter === "article") {
+			return "awards.articlesText";
+		} else if (filter === "scientific") {
+			return "awards.scientificText";
+		} else {
+			return "awards.othersText";
+		}
+	};
 	useEffect(() => {
 		setAwardContent(filterFunction(filter));
 	}, [filter]);
 	return (
 		<>
 			<Filter buttonFunctionality={changeFilter} filterActive={filter} array={awardsFilter}/>
+			<p className="tabs-text">{i18n.t(filterTextFunction())}</p>
 			<ul>
 				{
 					awardContent.map((item, index) => {

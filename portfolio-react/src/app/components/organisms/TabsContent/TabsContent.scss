@@ -1,0 +1,10 @@
+@import '../../../../assets/stylesheets/settings/variables';
+@import '../../../../assets/stylesheets/settings/mixins';
+@import '../../../../assets/stylesheets/settings/toRem';
+
+.tabs-text {
+    @include text-font;
+    margin-top: 0;
+    border-top: toRem(1) solid $primary-color;
+    padding-top: toRem(16);
+}
