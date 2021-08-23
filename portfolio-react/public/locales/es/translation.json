@@ -65,6 +65,11 @@
         "videogameTwo": "Spain Game Devs Jam II: 'Damng, la balada del capitán'",
         "scientific": "Artículos científicos",
         "others": "Varios",
-        "articles": "Artículos"
+        "articles": "Artículos",
+        "programming": "Artículo de programación",
+        "cybersecurity": "Artículo de ciberseguridad",
+        "interviewText": "Entrevista",
+        "videogames": "Participante en una Game Jam",
+        "paper": "Artículo científico"
     }
 }    
