@@ -7,6 +7,9 @@ import "./AwardItem.scss";
 export const AwardItem = ({item}) => {
 	return (
 		<li className="list-item">
+			<div className="list-item__icon-container">
+				<span className={`fas fa-${item.icon}`} role="presentation"></span>
+			</div>
 			<LinkItem text={item.text} href={item.href} target={item.target} modificator="simple"/>
 		</li>
 	);

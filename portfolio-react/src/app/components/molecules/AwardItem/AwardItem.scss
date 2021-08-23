@@ -1,3 +1,19 @@
+@import '../../../../assets/stylesheets/settings/variables';
+@import '../../../../assets/stylesheets/settings/toRem';
+
 .list-item {
+    display: flex;
+    align-items: center;
     list-style-type: none;
+
+    .fas {
+        color: $primary-color;
+        font-size: toRem(14);
+    }
+
+    &__icon-container {
+        width: toRem(32);
+        display: flex;
+        justify-content: center;
+    }
 }
