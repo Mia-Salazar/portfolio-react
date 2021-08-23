@@ -10,10 +10,18 @@
     border-bottom: toRem(4) solid $primary-color;
     background-color: $primary-color-light;
 
+    @media (max-width: 991px) {
+        margin-top: toRem(64);
+    }
+
     &__text-container {
-        height: calc(100vh - 165px - 250px);
+        height: calc(100vh - 160px);
         padding-right: toRem(16);
         overflow-y: auto;
+
+        @media (min-width: 992px) {
+            height: calc(100vh - 165px - 250px);
+        }
 
         &::-webkit-scrollbar {
             width: 12px;
