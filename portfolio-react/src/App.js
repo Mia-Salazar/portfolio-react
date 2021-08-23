@@ -42,7 +42,7 @@ const App = () => {
 				setMenuOpen(true);
 				setMenuOpenFirstTime(true);
 			}
-			setActiveLink(`navbar.${link}`);
+			setActiveLink("navbar." + link);
 		}
 	}, [width]);
 	return (
