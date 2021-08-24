@@ -5,7 +5,7 @@ import "./Input.scss";
 
 export const Input = ({type, pattern, id, value, required, functionality}) => {
 	return (
-		<input className="input" type={type} pattern={pattern} id={id} name={name} value={value}
+		<input className="input" type={type} pattern={pattern} id={id} name={id} value={value}
 			required={required} onChange={functionality}
 		/>
 	);

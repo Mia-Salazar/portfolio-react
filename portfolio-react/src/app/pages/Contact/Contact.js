@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Input } from "../../components/atoms/Input/Input";
+import { InputGroup } from "../../components/molecules/InputGroup/InputGroup";
 import { Title } from "../../components/atoms/Title/Title";
 import { Box } from "../../components/atoms/Box/Box";
 import i18n from "../../../i18n";
@@ -11,7 +11,7 @@ export const Contact = () => {
 		<Box>
 			<Title text="navbar.contact"/>
 			<p className="text">{i18n.t("contact.textOne")}</p>
-			<Input text="email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="email" placeholder="contact.email" required="true"/>
+			<InputGroup text="contact.email" type="email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="email" placeholder="contact.email" required="true" />
 		</Box>
 	);
 };

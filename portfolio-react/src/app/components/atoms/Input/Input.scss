@@ -5,7 +5,8 @@
 .input {
     @include simple-text-font;
     width: 100%;
-    padding: toRem(8);
+    padding: 0 toRem(8) toRem(8) toRem(8);
+    color: $primary-color;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid $primary-color;
