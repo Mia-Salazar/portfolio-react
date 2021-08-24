@@ -73,6 +73,7 @@
         "paper": "Paper"
     },
     "contact": {
+        "email": "Write your email",
         "textOne": "In the Galactic Alliance of Programmers we are always navigating the Universe solving code problems and making improvements, but you can contact me through this form or at:"
     }
 } 
