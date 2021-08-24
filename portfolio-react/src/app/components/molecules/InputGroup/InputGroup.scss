@@ -1,0 +1,17 @@
+@import '../../../../assets/stylesheets/settings/variables';
+@import '../../../../assets/stylesheets/settings/toRem';
+@import '../../../../assets/stylesheets/settings/mixins';
+
+.input-group {
+    margin-left: 1px;
+    margin-bottom: toRem(24);
+
+    &__label {
+        @include text-font;
+        font-weight: 400;
+    }
+
+    .input {
+        margin-top: toRem(8);
+    }
+}
