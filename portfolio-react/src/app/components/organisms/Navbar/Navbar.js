@@ -13,7 +13,7 @@ export const Navbar = ({functionality, activeLink}) => {
 		{link: "/portfolio", text: "navbar.portfolio"},
 		{link: "/skills", text: "navbar.skills"},
 		{link: "/awards", text: "navbar.awards"},
-		{link: "", text: "navbar.contact"}
+		{link: "/contact", text: "navbar.contact"}
 	];
 	return (
 		<nav className="navbar">

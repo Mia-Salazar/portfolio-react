@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { withTranslation } from "react-i18next";
 import { Switch,Route } from "react-router-dom";
 
-
 import { Stars } from "../src/app/components/molecules/Stars/Stars";
 import { Spaceship } from "../src/app/components/atoms/Spaceship/Spaceship";
 import { Header } from "../src/app/components/molecules/Header/Header";
@@ -12,6 +11,7 @@ import { About } from "../src/app/pages/About/About";
 import { Skills } from "../src/app/pages/Skills/Skills";
 import { Portfolio } from "../src/app/pages/Portfolio/Portfolio";
 import { Awards } from "../src/app/pages/Awards/Awards";
+import { Contact } from "../src/app/pages/Contact/Contact";
 import { useWindowDimensions } from "./app/utils/getWidth";
 import "./App.scss";
 
@@ -57,6 +57,7 @@ const App = () => {
 						<Switch>
 							<Route exact path="/about" component={About} />
 							<Route exact path="/awards" component={Awards} />
+							<Route exact path="/contact" component={Contact} />
 							<Route exact path="/portfolio" component={Portfolio} />
 							<Route exact path="/skills" component={Skills} />
 						</Switch>
@@ -72,3 +73,8 @@ const App = () => {
 }; 
 
 export default withTranslation()(App);
+
+
+<div className="warning" role="alert">
+	<ng-content></ng-content>
+</div>;
