@@ -11,8 +11,13 @@
     text-transform: uppercase;
 }
 
-@mixin text-font {
-    color: $primary-color;
+@mixin simple-text-font {
     font-family: $font-family-secondary;
     font-weight: 100;
 }
+
+@mixin text-font {
+    @include simple-text-font;
+    color: $primary-color;
+}
+
