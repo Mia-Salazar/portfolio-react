@@ -71,5 +71,8 @@
         "interviewText": "Entrevista",
         "videogames": "Participante en una Game Jam",
         "paper": "Artículo científico"
+    },
+    "contact": {
+        "textOne": "En la Alianza Galáctica de Programadores siempre estamos navegando por el Universo solucionando problemas de código y realizando mejoras, pero puedes contactarme a través de este formulario o en:"
     }
 }    
