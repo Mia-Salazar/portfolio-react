@@ -6,4 +6,11 @@
     @include simple-text-font;
     width: 100%;
     padding: toRem(8);
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $primary-color;
+
+    &:focus {
+        outline: 1px solid $primary-color;
+    }
 }
