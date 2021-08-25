@@ -16,7 +16,7 @@ export const InputGroup = ({text, type, pattern, id, value, required, functional
 
 InputGroup.propTypes = {
 	text: PropTypes.string.isRequired,
-	type: PropTypes.string.isRequired,
+	type: PropTypes.string,
 	pattern: PropTypes.string,
 	value: PropTypes.string,
 	id: PropTypes.string.isRequired,
