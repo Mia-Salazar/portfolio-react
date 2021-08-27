@@ -1,4 +1,5 @@
 @import '../settings/variables';
+@import '../settings/toRem';
 
 @mixin main-font {
     font-family: $font-family-primary;
@@ -19,6 +20,17 @@
 @mixin text-font {
     @include simple-text-font;
     color: $primary-color;
+}
+
+@mixin small-text {
+    @include text-font;
+    font-size: toRem(12);
+}
+
+@mixin text-error {
+    @include simple-text-font;
+    color: $red;
+    font-size: toRem(12);
 }
 
 @mixin input-styles {
