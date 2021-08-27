@@ -15,8 +15,8 @@ Textarea.propTypes = {
 	pattern: PropTypes.string,
 	value: PropTypes.string,
 	id: PropTypes.string.isRequired,
-	required: PropTypes.bool.isRequired,
-	functionality: PropTypes.func.isRequired,
+	required: PropTypes.bool,
+	functionality: PropTypes.func,
 };
 
 Textarea.displayName = "Textarea";

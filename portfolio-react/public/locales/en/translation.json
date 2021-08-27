@@ -73,7 +73,12 @@
         "paper": "Paper"
     },
     "contact": {
+        "success": "The message was sent successfully",
+        "required": "* This fields are mandatory",
+        "send": "Send",
         "email": "Write your email",
+        "name": "Write your name",
+        "comment": "Write your message",
         "textOne": "In the Galactic Alliance of Programmers we are always navigating the Universe solving code problems and making improvements, but you can contact me through this form or at:"
     }
 } 

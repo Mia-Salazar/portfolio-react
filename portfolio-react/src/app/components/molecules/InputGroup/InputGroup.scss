@@ -11,7 +11,11 @@
         font-weight: 400;
     }
 
-    .input {
+    &__asterisk {
+        margin-left: toRem(4);
+    }
+
+    .input, .textarea {
         margin-top: toRem(8);
     }
 }
