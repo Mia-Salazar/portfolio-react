@@ -49,7 +49,6 @@ export const Form = () => {
 	};
 	const inputChange = (param) => (e) => {
 		const inputValue = e.target.value;
-		console.log(inputValue, "value");
 		if (param === "email") {
 			setEmail(inputValue);
 		}
