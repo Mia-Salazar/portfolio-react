@@ -1,0 +1,19 @@
+@import '../../../../assets/stylesheets/settings/mixins';
+
+.feedback-text {
+    @include small-text;
+
+    &--required {
+        margin-bottom: toRem(32);
+    }
+
+    &--failure, &--feedback {
+        color: $red;
+    }
+
+    &--feedback {
+        margin-top: -8px;
+        margin-bottom: toRem(24);
+        font-weight: bold;
+    }
+}

@@ -27,12 +27,6 @@
     font-size: toRem(12);
 }
 
-@mixin text-error {
-    @include simple-text-font;
-    color: $red;
-    font-size: toRem(12);
-}
-
 @mixin input-styles {
     @include simple-text-font;
     width: 100%;
