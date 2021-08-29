@@ -8,25 +8,4 @@
     @media (min-width: 768px) {
         width: 50%;
     }
-
-    &__required {
-        @include small-text;
-
-        margin-bottom: toRem(32);
-    }
-
-    &__success {
-        @include small-text;
-    }
-
-    &__failure, &__feedback {
-        @include text-error;
-
-        font-size: toRem(12);
-    }
-
-    &__feedback {
-        margin-top: -8px;
-        font-weight: bold;
-    }
 }

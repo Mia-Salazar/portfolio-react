@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-import i18n from "../../../../i18n";
 import { emailValidator, textValidator } from "../../../utils/functionalities/validators";
 import { Button } from "../../atoms/Button/Button";
+import { FeedbackText } from "../../atoms/FeedbackText/FeedbackText";
 import { InputGroup } from "../../molecules/InputGroup/InputGroup";
 import "./Form.scss";
 
@@ -70,26 +70,22 @@ export const Form = () => {
 		<form className="form" onSubmit={handleOnSubmit}>
 			<InputGroup text="contact.name" type="text" id="name" placeholder="contact.name" value={name} functionality={inputChange("name")}/>
 			{name !== "" && !inputValidation.name &&
-				<p className="form__feedback">{i18n.t("contact.error")}</p>
+				<FeedbackText text="contact.error" type="feedback" />
 			}
 			<InputGroup text="contact.email" type="email" id="email" placeholder="contact.email" required={true} value={email} functionality={inputChange("email")}/>
 			{email !== "" && !inputValidation.email &&
-				<p className="form__feedback">{i18n.t("contact.error")}</p>
+				<FeedbackText text="contact.error" type="feedback" />
 			}
 			<InputGroup text="contact.comment" type="text" id="comment" placeholder="contact.comment" required={true} value={textarea} functionality={inputChange("textarea")}/>
 			{textarea !== "" && !inputValidation.textarea &&
-				<p className="form__feedback">{i18n.t("contact.error")}</p>
+				<FeedbackText text="contact.error" type="feedback" />
 			}
-			<p className="form__required">{i18n.t("contact.required")}</p>
+			<FeedbackText  text="contact.required" type="required"/>
 			{serverState.status && serverState.status.ok && (
-				<p className="form__success">
-					{i18n.t(serverState.status.msg)}
-				</p>
+				<FeedbackText text={serverState.status.msg} />
 			)}
 			{serverState.status && !serverState.status.ok && (
-				<p className="form__failure">
-					{serverState.status.msg}
-				</p>
+				<FeedbackText text={serverState.status.msg} type="failure" />
 			)}
 			<Button text="contact.send" modificator="filled" disabled={serverState.submitting || email === undefined || textarea === undefined || !inputValidation.email || !inputValidation.textarea} type="submit"/>
 		</form>
