@@ -29,7 +29,7 @@ const App = () => {
 		if (menuOpenFirstTime && width < 992) {
 			setMenuOpen(!menuOpen);
 		}
-		setActiveLink(link);
+		setActiveLink(link.toString());
 	};
 	useEffect(() => {
 		const location = window.location.pathname;
