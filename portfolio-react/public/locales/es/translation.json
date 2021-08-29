@@ -73,6 +73,7 @@
         "paper": "Artículo científico"
     },
     "contact": {
+        "error": "Este campo tiene errores",
         "success": "El mensaje se envió con éxito",
         "required": "* Estos campos son obligatorios",
         "send": "Enviar",

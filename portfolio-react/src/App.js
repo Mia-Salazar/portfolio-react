@@ -12,7 +12,7 @@ import { Skills } from "../src/app/pages/Skills/Skills";
 import { Portfolio } from "../src/app/pages/Portfolio/Portfolio";
 import { Awards } from "../src/app/pages/Awards/Awards";
 import { Contact } from "../src/app/pages/Contact/Contact";
-import { useWindowDimensions } from "./app/utils/getWidth";
+import { useWindowDimensions } from "./app/utils/functionalities/getWidth";
 import "./App.scss";
 
 const App = () => {

@@ -19,7 +19,14 @@
         @include small-text;
     }
 
-    &__failure {
+    &__failure, &__feedback {
         @include text-error;
+
+        font-size: toRem(12);
+    }
+
+    &__feedback {
+        margin-top: -8px;
+        font-weight: bold;
     }
 }
