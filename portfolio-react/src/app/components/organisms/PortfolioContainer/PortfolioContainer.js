@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import { portfolioFilter } from "../../../utils/portfolioFilter";
-import { portfolioArray } from "../../../utils/portfolioContent";
+import { portfolioFilter } from "../../../utils/data/portfolioFilter";
+import { portfolioArray } from "../../../utils/data/portfolioContent";
 import { Button } from "../../atoms/Button/Button";
 import { PortfolioItem } from "../../molecules/PortfolioItem/PortfolioItem";
 import { Filter } from "../../molecules/Filter/Filter";

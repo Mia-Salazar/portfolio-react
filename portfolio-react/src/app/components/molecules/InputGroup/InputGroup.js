@@ -6,7 +6,7 @@ import { Textarea } from "../../atoms/Textarea/Textarea";
 import { Input } from "../../atoms/Input/Input";
 import "./InputGroup.scss";
 
-export const InputGroup = ({text, type, pattern, id, value, required, functionality}) => {
+export const InputGroup = ({text, type, id, value, required, functionality}) => {
 	return (
 		<div className="input-group">
 			<label htmlFor={id} className="input-group__label">
@@ -14,8 +14,8 @@ export const InputGroup = ({text, type, pattern, id, value, required, functional
 				{required ? <span className="input-group__asterisk">*</span> : ""}
 			</label>
 			{type 
-				? <Input type={type} pattern={pattern} id={id} required={required} functionality={functionality} value={value} />
-				: <Textarea pattern={pattern} id={id} text={text} required={required} functionality={functionality} value={value} />
+				? <Input type={type} id={id} required={required} functionality={functionality} value={value} />
+				: <Textarea id={id} text={text} required={required} functionality={functionality} value={value} />
 			}			
 		</div>
 	);
@@ -24,7 +24,6 @@ export const InputGroup = ({text, type, pattern, id, value, required, functional
 InputGroup.propTypes = {
 	text: PropTypes.string.isRequired,
 	type: PropTypes.string,
-	pattern: PropTypes.string,
 	value: PropTypes.string,
 	id: PropTypes.string.isRequired,
 	required: PropTypes.bool,

@@ -1,18 +1,18 @@
-import marvel from "../../assets/images/comic.PNG";
-import lotr from "../../assets/images/lotr.jpg";
-import spotiapp from "../../assets/images/spotiapp.jpg";
-import movie from "../../assets/images/movie.jpg";
-import crusha from "../../assets/images/crusha.jpg";
-import wizard from "../../assets/images/wizard.jpg";
-import todo from "../../assets/images/todo.jpg";
-import teresa from "../../assets/images/teresa.png";
-import movies from "../../assets/images/movies.png";
-import happets from "../../assets/images/happets-reviews.png";
-import happetsBis from "../../assets/images/happets-2.png";
-import game from "../../assets/images/game.png";
-import fleetLanding from "../../assets/images/fleeet-landing.png";
-import fleetCatalog from "../../assets/images/fleeet-catalog.png";
-import XCJ from "../../assets/images/xcj.png";
+import marvel from "../../../assets/images/comic.PNG";
+import lotr from "../../../assets/images/lotr.jpg";
+import spotiapp from "../../../assets/images/spotiapp.jpg";
+import movie from "../../../assets/images/movie.jpg";
+import crusha from "../../../assets/images/crusha.jpg";
+import wizard from "../../../assets/images/wizard.jpg";
+import todo from "../../../assets/images/todo.jpg";
+import teresa from "../../../assets/images/teresa.png";
+import movies from "../../../assets/images/movies.png";
+import happets from "../../../assets/images/happets-reviews.png";
+import happetsBis from "../../../assets/images/happets-2.png";
+import game from "../../../assets/images/game.png";
+import fleetLanding from "../../../assets/images/fleeet-landing.png";
+import fleetCatalog from "../../../assets/images/fleeet-catalog.png";
+import XCJ from "../../../assets/images/xcj.png";
 
 export const portfolioArray = [
 	{ href: "https://github.com/Mia-Salazar/marvel-react", text:"Reactjs, React Hooks, HTML5, CSS3, SASS, Flexbox, Grid, Semantic UI, Javascript, API Rest", src: marvel },

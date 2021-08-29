@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 import i18n from "../../../../i18n";
-import { awardsArray } from "../../../utils/awardsArray";
-import { awardsFilter } from "../../../utils/awardsFilter";
+import { awardsArray } from "../../../utils/data/awardsArray";
+import { awardsFilter } from "../../../utils/data/awardsFilter";
 import { Filter } from "../../molecules/Filter/Filter";
 import { AwardItem } from "../../molecules/AwardItem/AwardItem";
 import "./TabsContent.scss";

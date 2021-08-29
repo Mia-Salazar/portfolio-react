@@ -73,6 +73,7 @@
         "paper": "Paper"
     },
     "contact": {
+        "error": "This field has error",
         "success": "The message was sent successfully",
         "required": "* This fields are mandatory",
         "send": "Send",
