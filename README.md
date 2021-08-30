@@ -40,6 +40,8 @@ $npm run build
 * [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) - Methodology for interface design systems
 * [i18n](https://www.npmjs.com/package/i18n) - Text Internationalization
 * [Proptypes](https://www.npmjs.com/package/prop-types) - Document the intended types
+* [Testing library](https://testing-library.com/docs/react-testing-library/intro/) - Testing
+* [Jest](https://github.com/testing-library/jest-dom) - Testing
 
 ## Authors
 
