@@ -2,9 +2,8 @@ import React, { Suspense } from "react";
 import { BrowserRouter } from "react-router-dom";
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import App from './App';
 
-import { Footer } from "./app/components/molecules/Footer/Footer";
+import App from './App';
 
 test('renders learn react link', () => {
   const Loader = () => (
