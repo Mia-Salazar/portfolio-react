@@ -5,7 +5,6 @@ import { fireEvent, render } from "@testing-library/react";
 import i18n from "../../../../i18n";
 import { Button } from "./Button";
 
-
 describe('<Button />', () => {
     const buttonText = "Send";
     i18n.changeLanguage('cimode');
