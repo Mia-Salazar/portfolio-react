@@ -27,7 +27,8 @@
         "framework": "Angular & React",
         "css": "Bootstrap 4, Materialize, Bulma, Angular Material, Tailwind...",
         "accessibility": "Accesibilidad",
-        "redux": "Redux"
+        "redux": "Redux",
+        "testing": "Testing library, Jest"
     },
     "portfolio": {
         "visit": "Visitar",

@@ -18,6 +18,7 @@ export const Skills = () => {
 			<SkillItem levelStatus="high" text="skills.css" />
 			<SkillItem levelStatus="medium" text="skills.accessibility" />
 			<SkillItem levelStatus="low" text="skills.redux" />
+			<SkillItem levelStatus="low" text="skills.testing" />
 		</Box>
 	);
 };
