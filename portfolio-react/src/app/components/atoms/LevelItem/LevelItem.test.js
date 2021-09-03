@@ -14,7 +14,7 @@ describe('<LevelItemn />', () => {
             <LevelItem text="example" active={true}/>,
         );
         const levelItem = component.getByText("example");
-        expect(levelItem.classList.contains("level-item--active")).toBe(true);
+        expect(levelItem).toHaveClass("level-item--active");
     });
 
     test("if it is not active, it does not has active class", () => {
