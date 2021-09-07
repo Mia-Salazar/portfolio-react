@@ -6,7 +6,7 @@ import "./LevelItem.scss";
 
 export const LevelItem = ({text, active}) => {
 	return (
-		<p className={active ? "level-item level-item--active" : "level-item"}>
+		<p className={active ? "level-item level-item--active" : "level-item"}data-testid="level-item">
 			{i18n.t(text)}
 		</p>
 	);
