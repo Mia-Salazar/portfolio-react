@@ -11,7 +11,7 @@ export const PortfolioItem = ({item}) => {
 		setMoreInfoOpen(!moreInfoOpen);
 	};
 	return (
-		<article className={moreInfoOpen ? "portfolio-item portfolio-item--active": "portfolio-item" }>
+		<article className={moreInfoOpen ? "portfolio-item portfolio-item--active": "portfolio-item" } data-testid="portfolio-item">
 			<figure className="portfolio-item__img-container">
 				<img className="portfolio-item__img" alt="" src={item.src}/> 
 				<figcaption className="portfolio-item__img-text">{item.text} </figcaption>
