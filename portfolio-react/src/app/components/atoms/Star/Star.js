@@ -8,7 +8,7 @@ export const Star = () => {
 	const positionOfStarHorizontal = Math.floor(Math.random() * 99) + 1;
 	const positionOfStarVertical = Math.floor(Math.random() * 99) + 1;
 
-	return <span aria-hidden="true" style={{"height" : `${sizeOfStar}px`, "width" : `${sizeOfStar}px`, "top" : `${positionOfStarHorizontal}%`, "left" : `${positionOfStarVertical}%`}}  role="presentation" className="star"></span>;
+	return <span aria-hidden="true" style={{"height" : `${sizeOfStar}px`, "width" : `${sizeOfStar}px`, "top" : `${positionOfStarHorizontal}%`, "left" : `${positionOfStarVertical}%`}}  role="presentation" title="star" className="star"></span>;
 };
 
 export default Star;
