@@ -21,8 +21,8 @@ export const Navbar = ({functionality, activeLink}) => {
 				{
 					navLinks.map((link) => {
 						return(
-							<li className="navbar__list-item" key={link.text}>
-								<Link className={activeLink === link.text ? "navbar__link navbar__link--active": "navbar__link"} to={link.link} onClick={() => functionality(link.text)} >{i18n.t(link.text)}</Link>
+							<li className="navbar__list-item" key={link.text} role="list">
+								<Link className={activeLink === link.text ? "navbar__link navbar__link--active": "navbar__link"} role="listitem" to={link.link} onClick={() => functionality(link.text)} >{i18n.t(link.text)}</Link>
 							</li>
 						);
 					})
