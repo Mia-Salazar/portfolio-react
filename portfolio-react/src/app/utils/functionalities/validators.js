@@ -9,7 +9,7 @@ export const emailValidator = (email) => {
 };
 
 export const textValidator = (text) => {
-	if (/[A-zÀ-ú0-9_.-]/.test(text) && text.length > 3 && text.trim() !== "") {
+	if (/[A-zÀ-ú0-9_.-]/.test(text) && text.length >= 2 && text.trim() !== "") {
 		return true;
 	}
 	return false;
