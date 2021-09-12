@@ -52,4 +52,5 @@ describe("Navbar", () => {
         const portfolio = component.getByText("navbar.portfolio");
         expect(portfolio.classList.contains("navbar__link--active")).toBe(true);
     });
+    //TODO activelink
 });
