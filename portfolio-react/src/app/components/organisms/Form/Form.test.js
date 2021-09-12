@@ -25,6 +25,6 @@ describe("Form", () => {
         const button = component.getByRole("button");
         fireEvent.click(button);
         expect(handleSubmit).toHaveBeenCalledTimes(0);
-        expect(handleSubmit).not.toHaveBeenCalled();;
+        expect(handleSubmit).not.toHaveBeenCalled();
 	});
 });
