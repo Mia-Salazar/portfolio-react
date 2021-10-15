@@ -11,11 +11,11 @@
     background-color: $primary-color-light;
 
     @media (max-width: 991px) {
-        margin-top: toRem(64);
+        margin-top: toRem(48);
     }
 
     &__text-container {
-        height: calc(100vh - 180px);
+        height: calc(100vh - 200px);
         padding-right: toRem(16);
         overflow-y: auto;
 
