@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import i18n from "../../../../i18n";
 import "./LanguageButton.scss";
@@ -9,6 +9,9 @@ export const LanguageButton = () => {
 		i18n.changeLanguage(language);
 		setLanguage(language);
 	};
+	useEffect(() => {
+		i18n.changeLanguage("en");
+	}, []);
 	return (
 		<div className="language-buttons" aria-label={i18n.t("navbar.lang")}>
 			<button className={language === "en" ? "language-buttons__item language-buttons__item--active" : "language-buttons__item" } onClick={() => changeLanguage("en")}>en</button>
