@@ -20,7 +20,7 @@
         overflow-y: auto;
 
         @media (min-width: 992px) {
-            height: calc(100vh - 165px - 250px);
+            height: calc(100vh - 165px - 200px);
         }
 
         &::-webkit-scrollbar {
