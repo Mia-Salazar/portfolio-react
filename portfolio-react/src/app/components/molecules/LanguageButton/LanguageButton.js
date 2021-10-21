@@ -6,11 +6,19 @@ import "./LanguageButton.scss";
 export const LanguageButton = () => {
 	const [language, setLanguage] = useState("en");
 	const changeLanguage = (language) => {
+		localStorage.setItem("lang", language);
 		i18n.changeLanguage(language);
 		setLanguage(language);
 	};
 	useEffect(() => {
-		i18n.changeLanguage("en");
+		const lang = localStorage.getItem("lang");
+		if (lang === "en" || lang === "es") {
+			i18n.changeLanguage(lang);
+			setLanguage(lang);
+		} else {
+			i18n.changeLanguage("en");
+			setLanguage("en");
+		}
 	}, []);
 	return (
 		<div className="language-buttons" aria-label={i18n.t("navbar.lang")}>
