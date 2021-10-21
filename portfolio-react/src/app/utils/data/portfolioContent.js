@@ -13,8 +13,12 @@ import game from "../../../assets/images/game.png";
 import fleetLanding from "../../../assets/images/fleeet-landing.png";
 import fleetCatalog from "../../../assets/images/fleeet-catalog.png";
 import XCJ from "../../../assets/images/xcj.png";
+import enthec from "../../../assets/images/enthec.jpg";
+import kartos from "../../../assets/images/kartos.jpg";
 
 export const portfolioArray = [
+	{ href: "https://enthec.com", text:"Angular, Bootstrap, HTML5, CSS3, SASS, Flexbox, Grid, Typescript, API Rest, i18n, BEM Methodology, Accesibility", src: enthec },
+	{ href: "https://kartos.enthec.com", text:"Angular, Angular Material, Redux, HTML5, CSS3, SASS, Flexbox, Grid, i18n, BEM Methodology, Typescript, API Rest, Accesibility", src: kartos },
 	{ href: "https://github.com/Mia-Salazar/marvel-react", text:"Reactjs, React Hooks, HTML5, CSS3, SASS, Flexbox, Grid, Semantic UI, Javascript, API Rest", src: marvel },
 	{ href: "https://github.com/Mia-Salazar/shop-redux", text:"Angular, Typescript, Tailwind, Redux, API Rest, CSS3, HTML5, SASS, Grid, Flexbox", src: lotr },
 	{ href: "https://github.com/Mia-Salazar/spotiapp", text:"Angular, Typescript, API Rest, CSS3, HTML5, SASS, Grid, Flexbox, Boostrap 4", src: spotiapp },
@@ -27,7 +31,7 @@ export const portfolioArray = [
 	{ href: "https://www.happets.com/opiniones", text:"JavaScript, jQuery, SASS, HTML5, CSS3, Flexbox, Grid, Bootstrap 4", src: happets },
 	{ href: "https://www.happets.com/login", text:"Reactjs, React hooks, Gatsby, storybook, testing, i18n, JavaScript, SASS, HTML5, CSS3, Flexbox, Grid", src: happetsBis },
 	{ href: "http://mia-tic-tac-toe.surge.sh/", text:"Reactjs Hooks, styled components, i18n, proptypes, classnames, HTML5, CSS3, SASS", src: game },
-	{ href: "https://www.myfleeet.com/", text:"Vuejs, Nuxtjs, SASS, jQuery, HTML5, CSS3, Flexbox, metodología BEM, Pug, vue-i18n", src: fleetLanding},
-	{ href: "https://www.myfleeet.com/client/catalog", text:"Vuejs, Nuxtjs, SASS, jQuery,HTML5, CSS3, Flexbox,metodología BEM, Pug, vue-i18n", src: fleetCatalog},
+	{ href: "https://www.myfleeet.com/", text:"Vuejs, Nuxtjs, SASS, jQuery, HTML5, CSS3, Flexbox, BEM Methodology, Pug, vue-i18n", src: fleetLanding},
+	{ href: "https://www.myfleeet.com/client/catalog", text:"Vuejs, Nuxtjs, SASS, jQuery,HTML5, CSS3, Flexbox,BEM Methodology, Pug, vue-i18n", src: fleetCatalog},
 	{ href: "http://xcjgames.com/", text:"jQuery, Bootstrap 4, HTML5, CSS3, Flexbox, diseño", src: XCJ },
 ];
