@@ -73,7 +73,9 @@
         "cybersecurity": "Cybersecurity article",
         "interviewText": "Interview",
         "videogames": "Participant in a Game Jam",
-        "paper": "Paper"
+        "paper": "Paper",
+        "talks": "Talks",
+        "talksOne": "Participation in a Science and Technology Program in Women and talks in high schools"
     },
     "contact": {
         "error": "This field has error",
