@@ -73,7 +73,9 @@
         "cybersecurity": "Artículo de ciberseguridad",
         "interviewText": "Entrevista",
         "videogames": "Participante en una Game Jam",
-        "paper": "Artículo científico"
+        "paper": "Artículo científico",
+        "talks": "Charlas",
+        "talksOne": "Participación en un Programa de Ciencia y Tecnología en Femenino y charlas en institutos"
     },
     "contact": {
         "error": "Este campo tiene errores",
