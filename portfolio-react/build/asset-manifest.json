@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a0243149.chunk.css",
+    "main.js": "/static/js/main.8593feae.chunk.js",
+    "main.js.map": "/static/js/main.8593feae.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4fa033c1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4fa033c1.js.map",
+    "static/js/2.d7afe6e8.chunk.js": "/static/js/2.d7afe6e8.chunk.js",
+    "static/js/2.d7afe6e8.chunk.js.map": "/static/js/2.d7afe6e8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a0243149.chunk.css.map": "/static/css/main.a0243149.chunk.css.map",
+    "static/js/2.d7afe6e8.chunk.js.LICENSE.txt": "/static/js/2.d7afe6e8.chunk.js.LICENSE.txt",
+    "static/media/comic.404c9788.PNG": "/static/media/comic.404c9788.PNG",
+    "static/media/crusha.7b8b5cda.jpg": "/static/media/crusha.7b8b5cda.jpg",
+    "static/media/enthec.27dc9bfb.jpg": "/static/media/enthec.27dc9bfb.jpg",
+    "static/media/fleeet-catalog.69a9fcdf.png": "/static/media/fleeet-catalog.69a9fcdf.png",
+    "static/media/fleeet-landing.2326b9c3.png": "/static/media/fleeet-landing.2326b9c3.png",
+    "static/media/game.561610fc.png": "/static/media/game.561610fc.png",
+    "static/media/getFetch.cjs": "/static/media/getFetch.582d29c4.cjs",
+    "static/media/happets-2.c88d419f.png": "/static/media/happets-2.c88d419f.png",
+    "static/media/happets-reviews.424c4196.png": "/static/media/happets-reviews.424c4196.png",
+    "static/media/kartos.4e4c5451.jpg": "/static/media/kartos.4e4c5451.jpg",
+    "static/media/lotr.9db4d0e6.jpg": "/static/media/lotr.9db4d0e6.jpg",
+    "static/media/movie.8c775ee1.jpg": "/static/media/movie.8c775ee1.jpg",
+    "static/media/movies.daf5c7cc.png": "/static/media/movies.daf5c7cc.png",
+    "static/media/old.e0b08990.jpg": "/static/media/old.e0b08990.jpg",
+    "static/media/spotiapp.a43e09f2.jpg": "/static/media/spotiapp.a43e09f2.jpg",
+    "static/media/teresa.9cb0e28c.png": "/static/media/teresa.9cb0e28c.png",
+    "static/media/todo.b13ebb00.jpg": "/static/media/todo.b13ebb00.jpg",
+    "static/media/wizard.0124e51a.jpg": "/static/media/wizard.0124e51a.jpg",
+    "static/media/xcj.41d602bc.png": "/static/media/xcj.41d602bc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4fa033c1.js",
+    "static/js/2.d7afe6e8.chunk.js",
+    "static/css/main.a0243149.chunk.css",
+    "static/js/main.8593feae.chunk.js"
+  ]
+}
