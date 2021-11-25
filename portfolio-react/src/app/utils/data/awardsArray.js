@@ -16,7 +16,8 @@ export const awardsArray = [
 	{ aria: "awards.cybersecurity", icon: "shield-alt", target: "_blank", text: "awards.articleNine", href: "https://blog.enthec.com/leaked-credentials-the-importance-of-employees-awareness/", type: "article"  },
 	{ aria: "awards.cybersecurity", icon: "shield-alt", target: "_blank", text: "awards.articleTen", href: "https://blog.enthec.com/5-types-of-phishing-and-how-to-protect-from-them/", type: "article"  },
 	{ aria: "awards.cybersecurity", icon: "shield-alt", target: "_blank", text: "awards.articleEleven", href: "https://blog.enthec.com/10-cybersecurity-tips-for-remote-workers/", type: "article"  },
-	{ aria: "awards.cybersecurity", icon: "shield-alt", target: "_blank", text: "awards.articleTwelve", href: "https://blog.enthec.com/9-tips-to-protect-yourself-from-identity-theft//", type: "article"  },
+	{ aria: "awards.cybersecurity", icon: "shield-alt", target: "_blank", text: "awards.articleTwelve", href: "https://blog.enthec.com/9-tips-to-protect-yourself-from-identity-theft/", type: "article"  },
+	{ aria: "awards.cybersecurity", icon: "shield-alt", target: "_blank", text: "awards.articleFifteen", href: "https://blog.enthec.com/updates-why-are-they-important-for-cybersecurity/", type: "article"  },
 	{ aria: "awards.videogames", icon: "gamepad", target: "_blank", text: "awards.videogame", href: "https://xcjgames.itch.io/treeventure", type: "others" },
 	{ aria: "awards.videogames", icon: "gamepad", target: "_blank", text: "awards.videogameTwo", href: "https://xcjgames.itch.io/damng-la-balada-del-capitan", type: "others" },
 ];
