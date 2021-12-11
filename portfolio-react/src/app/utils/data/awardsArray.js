@@ -1,6 +1,6 @@
 export const awardsArray = [
-	{ aria: "awards.paper", icon: "atom", target: "_blank", text: "awards.corea", href: "http://www.revistacomunicacion.org/pdf/n16/Articulos/A3_GarciaRosales_Analisis_semiotica_profunda_propaganda_Corea.pdf", type: "scientific"},
-	{ aria: "awards.paper", icon: "atom", target: "_blank", text: "awards.coreaTwo", href: "http://www.revistacomunicacion.org/pdf/n14/Articulos/A5_Salazar-Garcia-Rosales-Analisis-de-los-elementos-estetico-expresivos-en-la-propaganda-de-Corea-del-Sur-y-Corea-del-Norte.pdf", type: "scientific" },
+	{ aria: "awards.paper", icon: "atom", target: "_blank", text: "awards.corea", href: "https://institucional.us.es/revistas/comunicacion/16/A3.%20GarciaRosales_An%C3%A1lisis_semi%C3%B3tica_profunda_propaganda_Corea.pdf", type: "scientific"},
+	{ aria: "awards.paper", icon: "atom", target: "_blank", text: "awards.coreaTwo", href: "https://institucional.us.es/revistas/publicidad/14/A5_Salazar%20Garcia-Rosales.pdf", type: "scientific" },
 	{ aria: "awards.talks", icon: "venus", target: "_blank", text: "awards.talksOne", href: "https://eventos.uc3m.es/70884/section/33597/ciencia-y-tecnologia-en-femenino.-programa-e-inauguracion-exposicion.html", type: "others" },
 	{ aria: "awards.interviewText", icon: "microphone", target: "_blank", text: "awards.interview", href: "https://www.youtube.com/watch?v=ljT-Zwobxos&feature=emb_title&ab_channel=ITgals", type: "others" },
 	{ aria: "awards.programming", icon: "file-alt", target: "_blank", text: "awards.articleFourteen", href: "https://dev.to/miasalazar/optimizar-tu-github-y-cv-para-pasar-la-revision-tecnica-35ok", type: "article" },
