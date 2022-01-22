@@ -15,6 +15,7 @@ import fleetCatalog from "../../../assets/images/fleeet-catalog.png";
 import XCJ from "../../../assets/images/xcj.png";
 import enthec from "../../../assets/images/enthec.jpg";
 import kartos from "../../../assets/images/kartos.jpg";
+import slot from "../../../assets/images/slot.jpg";
 
 export const portfolioArray = [
 	{ href: "https://enthec.com", text:"Angular, Bootstrap, HTML5, CSS3, SASS, Flexbox, Grid, Typescript, API Rest, i18n, BEM Methodology, Accesibility", src: enthec },
@@ -34,4 +35,5 @@ export const portfolioArray = [
 	{ href: "https://www.myfleeet.com/", text:"Vuejs, Nuxtjs, SASS, jQuery, HTML5, CSS3, Flexbox, BEM Methodology, Pug, vue-i18n", src: fleetLanding},
 	{ href: "https://www.myfleeet.com/client/catalog", text:"Vuejs, Nuxtjs, SASS, jQuery,HTML5, CSS3, Flexbox,BEM Methodology, Pug, vue-i18n", src: fleetCatalog},
 	{ href: "http://xcjgames.com/", text:"jQuery, Bootstrap 4, HTML5, CSS3, Flexbox, diseño", src: XCJ },
+	{ href: "https://mia-salazar.github.io/slot-machine/", text:"HTML5, CSS3, Javascript, Flexbox", src: slot },
 ];
