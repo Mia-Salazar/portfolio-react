@@ -19,6 +19,7 @@ export const awardsArray = [
 	{ aria: "awards.cybersecurity", icon: "shield-alt", target: "_blank", text: "awards.articleTwelve", href: "https://blog.enthec.com/9-tips-to-protect-yourself-from-identity-theft/", type: "article"  },
 	{ aria: "awards.cybersecurity", icon: "shield-alt", target: "_blank", text: "awards.articleFifteen", href: "https://blog.enthec.com/updates-why-are-they-important-for-cybersecurity/", type: "article"  },
 	{ aria: "awards.cybersecurity", icon: "shield-alt", target: "_blank", text: "awards.articleSixteen", href: "https://blog.enthec.com/credit-card-fraud-what-is-and-how-can-you-prevent-it/", type: "article"  },
+	{ aria: "awards.cybersecurity", icon: "shield-alt", target: "_blank", text: "awards.articleSeventeen", href: "https://blog.enthec.com/what-is-the-difference-between-spam-and-phishing/", type: "article"  },
 	{ aria: "awards.videogames", icon: "gamepad", target: "_blank", text: "awards.videogame", href: "https://xcjgames.itch.io/treeventure", type: "others" },
 	{ aria: "awards.videogames", icon: "gamepad", target: "_blank", text: "awards.videogameTwo", href: "https://xcjgames.itch.io/damng-la-balada-del-capitan", type: "others" },
 ];
