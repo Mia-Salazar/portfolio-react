@@ -21,7 +21,7 @@ import xcjgames from "../../../assets/images/xcjgames.PNG";
 export const portfolioArray = [
 	{ href: "https://enthec.com", text:"Angular, HTML5, CSS3, SASS, Flexbox, Grid, Typescript, API Rest, i18n, BEM Methodology, Accesibility", src: enthec },
 	{ href: "https://kartos.enthec.com", text:"Angular, Angular Material, Redux, HTML5, CSS3, SASS, Flexbox, Grid, i18n, BEM Methodology, Typescript, API Rest, Accesibility", src: kartos },
-	{ href: "http://xcjgames.com/", text:"Reactjs, React Hooks, Jest, Testing-library, HTML5, CSS3, SASS, Flexbox, Grid, Javascript,", src: xcjgames },
+	{ href: "http://xcjgames.surge.sh/", text:"Reactjs, React Hooks, Jest, Testing-library, HTML5, CSS3, SASS, Flexbox, Grid, Javascript,", src: xcjgames },
 	{ href: "http://teresa-salazar.surge.sh/", text:"Reactjs, Javascript, CSS3, HTML5, BEM, SASS, Grid, Flexbox, i18n, Classnames, librerías, Formspree, lazy load", src: teresa },
 	{ href: "https://github.com/Mia-Salazar/marvel-react", text:"Reactjs, React Hooks, HTML5, CSS3, SASS, Flexbox, Grid, Semantic UI, Javascript, API Rest", src: marvel },
 	{ href: "https://github.com/Mia-Salazar/shop-redux", text:"Angular, Typescript, Tailwind, Redux, API Rest, CSS3, HTML5, SASS, Grid, Flexbox", src: lotr },
