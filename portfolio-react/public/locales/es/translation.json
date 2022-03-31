@@ -49,7 +49,7 @@
         "othersText": "Aquí puedes ver las entrevistas que me han realizado y otros proyectos en los que he participado en La Tierra.",
         "corea": "Análisis de la estructura semiótica profunda de los mensajes propagandísticos de Corea",
         "coreaTwo": "Análisis de los elementos estéticoexpresivos en la propaganda de Corea del Sur y Corea del Norte",
-        "interview": "IT Gals",
+        "interview": "IT Gals: Entrevista sobre mujeres en el sector tecnológico",
         "articleOne": "La pesadilla del desarrollador: Accesibilidad Web",
         "articleTwo": "¿Por qué, Icomoon, por qué?",
         "articleThree": "Cómo estructurar CSS en VUE como una persona Pro",
@@ -78,7 +78,8 @@
         "videogames": "Participante en una Game Jam",
         "paper": "Artículo científico",
         "talks": "Charlas",
-        "talksOne": "Participación en un Programa de Ciencia y Tecnología en Femenino y charlas en institutos"
+        "talksOne": "Participación en un Programa de Ciencia y Tecnología en Femenino y charlas en institutos",
+        "talksTwo": "Discovering Tech Stories: Entrevista para Opground"
     },
     "contact": {
         "error": "Este campo tiene errores",
