@@ -10,6 +10,7 @@
     background-color: $primary-color-light;
 
     @media (max-width: 991px) {
+        max-width: toRem(215);
         margin-right: auto;
         margin-left: auto;
     }
