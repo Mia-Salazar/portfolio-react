@@ -8,7 +8,8 @@ export const Footer = () => {
 		{icon: "fa-github-alt", link: "https://github.com/Mia-Salazar", aria: "Github"},
 		{icon: "fa-codepen", link: "https://codepen.io/MiaSalazar", aria: "Codepen"},
 		{icon: "fa-linkedin-in", link: "https://www.linkedin.com/in/miasalazar/", aria: "Linkedin"},
-		{icon: "fa-medium-m", link: "https://marasalazar.medium.com/", aria: "Medium"}
+		{icon: "fa-medium-m", link: "https://marasalazar.medium.com/", aria: "Medium"},
+		{icon: "fa-twitter", link: "https://twitter.com/miadeveloper", aria: "Twitter"}
 	];
 	return (
 		<ul className="social-networks">
