@@ -23,6 +23,7 @@ export const awardsArray = [
 	{ aria: "awards.cybersecurity", icon: "shield-alt", target: "_blank", text: "awards.articleSeventeen", href: "https://blog.enthec.com/what-is-the-difference-between-spam-and-phishing/", type: "article"  },
 	{ aria: "awards.cybersecurity", icon: "shield-alt", target: "_blank", text: "awards.articleEighteen", href: "https://blog.enthec.com/what-is-google-hacking/", type: "article"  },
 	{ aria: "awards.cybersecurity", icon: "shield-alt", target: "_blank", text: "awards.articleNineteen", href: "https://blog.enthec.com/cybersecurity-in-front-end-development/", type: "article"  },
+	{ aria: "awards.cybersecurity", icon: "shield-alt", target: "_blank", text: "awards.articleTwenty", href: "https://blog.enthec.com/the-6-types-of-hat-hackers/", type: "article"  },
 	{ aria: "awards.videogames", icon: "gamepad", target: "_blank", text: "awards.videogame", href: "https://xcjgames.itch.io/treeventure", type: "others" },
 	{ aria: "awards.videogames", icon: "gamepad", target: "_blank", text: "awards.videogameTwo", href: "https://xcjgames.itch.io/damng-la-balada-del-capitan", type: "others" },
 ];
