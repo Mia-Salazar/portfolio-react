@@ -8,7 +8,7 @@ import "./Skills.scss";
 
 export const Skills = () => {
 	return (
-		<Box>
+		<Box description="Discover Mia Salazar's skills" keywords="Mia Salazar, front end, front-end, developer, desarrolladora, programadora, react, angular, typescript">
 			<Title text="navbar.skills"/>
 			<p className="text">{i18n.t("skills.textTwo")}</p>
 			<p className="text">{i18n.t("skills.textOne")}</p>

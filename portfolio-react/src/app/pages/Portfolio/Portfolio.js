@@ -11,7 +11,7 @@ import "./Portfolio.scss";
 export const Portfolio = () => {
 	const item = { href: "https://lucid-goldberg-035a3f.netlify.app/", text:"Angular, Typescript, HTML5, CSS3, SASS, Flexbox, Grid, BEM, i18n", src: old };
 	return (
-		<Box>
+		<Box description="Check Mia Salazar's projects out" keywords="Mia Salazar, front end, front-end, developer, desarrolladora, programadora, react development, angular development, javascript development, personal projects">
 			<div className="portfolio">
 				<Title text="navbar.portfolio"/>
 				<p className="text">{i18n.t("portfolio.subtitle")}</p>

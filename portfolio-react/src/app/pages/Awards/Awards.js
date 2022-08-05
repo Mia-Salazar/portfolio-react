@@ -8,7 +8,7 @@ import "./Awards.scss";
 
 export const Awards = () => {
 	return (
-		<Box>
+		<Box description="Learn about Mia Salazar's publications and more" keywords="Mia Salazar, front end, front-end, developer, desarrolladora, programadora, cybersecurity articles, development articles">
 			<Title text="navbar.awards"/>
 			<p className="text">{i18n.t("awards.textOne")}</p>
 			<TabsContent />
