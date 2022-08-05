@@ -4,6 +4,7 @@
 .form {
     margin-top: toRem(32);
     margin-bottom: 0;
+    padding-bottom: toRem(20);
 
     @media (min-width: 768px) {
         width: 50%;
