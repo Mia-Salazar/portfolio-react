@@ -8,7 +8,7 @@ import "./Contact.scss";
 
 export const Contact = () => {
 	return (
-		<Box>
+		<Box description="Contact Mia Salazar" keywords="Mia Salazar, front end, front-end, developer, desarrolladora, programadora, hire front-end">
 			<Title text="navbar.contact"/>
 			<p className="text">{i18n.t("contact.textOne")}</p>
 			<Form />
