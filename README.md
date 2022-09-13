@@ -42,6 +42,7 @@ $npm run build
 * [Proptypes](https://www.npmjs.com/package/prop-types) - Document the intended types
 * [Testing library](https://testing-library.com/docs/react-testing-library/intro/) - Testing
 * [Jest](https://github.com/testing-library/jest-dom) - Testing
+* [React Helmet](https://www.npmjs.com/package/react-helmet) - Management of document head
 
 ## Authors
 
