@@ -14,14 +14,16 @@ import fleetLanding from "../../../assets/images/fleeet-landing.png";
 import fleetCatalog from "../../../assets/images/fleeet-catalog.png";
 import XCJ from "../../../assets/images/xcj.png";
 import enthec from "../../../assets/images/enthec.jpg";
-import kartos from "../../../assets/images/kartos.jpg";
+import kartos from "../../../assets/images/kartos.png";
 import slot from "../../../assets/images/slot.jpg";
 import xcjgames from "../../../assets/images/xcjgames.PNG";
+import pollution from "../../../assets/images/pollution.png";
 
 export const portfolioArray = [
 	{ href: "https://enthec.com", text:"Angular, HTML5, CSS3, SASS, Flexbox, Grid, Typescript, API Rest, i18n, BEM Methodology, Accesibility", src: enthec },
 	{ href: "https://kartos.enthec.com", text:"Angular, Angular Material, Redux, HTML5, CSS3, SASS, Flexbox, Grid, i18n, BEM Methodology, Typescript, API Rest, Accesibility", src: kartos },
 	{ href: "http://xcjgames.surge.sh/", text:"Reactjs, React Hooks, Jest, Testing-library, HTML5, CSS3, SASS, Flexbox, Grid, Javascript,", src: xcjgames },
+	{ href: "https://mia-salazar.github.io/reddit-searcher/", text:"Reactjs, React Hooks, Custom Hooks, API Rest, Nes CSS, HTML5, CSS3, SASS, Flexbox, Grid, Javascript,", src: pollution },
 	{ href: "http://teresa-salazar.surge.sh/", text:"Reactjs, Javascript, CSS3, HTML5, BEM, SASS, Grid, Flexbox, i18n, Classnames, librerías, Formspree, lazy load", src: teresa },
 	{ href: "https://github.com/Mia-Salazar/marvel-react", text:"Reactjs, React Hooks, HTML5, CSS3, SASS, Flexbox, Grid, Semantic UI, Javascript, API Rest", src: marvel },
 	{ href: "https://github.com/Mia-Salazar/shop-redux", text:"Angular, Typescript, Tailwind, Redux, API Rest, CSS3, HTML5, SASS, Grid, Flexbox", src: lotr },
