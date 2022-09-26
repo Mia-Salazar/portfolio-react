@@ -19,6 +19,7 @@ import slot from "../../../assets/images/slot.jpg";
 import xcjgames from "../../../assets/images/xcjgames.PNG";
 import pollution from "../../../assets/images/pollution.png";
 import me from "../../../assets/images/me.png";
+import connect from "../../../assets/images/connect.png";
 
 export const portfolioArray = [
 	{ href: "https://enthec.com", text:"Angular, HTML5, CSS3, SASS, Flexbox, Grid, Typescript, API Rest, i18n, BEM Methodology, Accesibility", src: enthec },
@@ -27,6 +28,7 @@ export const portfolioArray = [
 	{ href: "https://mia-salazar.github.io/quiz", text:"Reactjs, React Hooks, HTML5, CSS3, SASS, Flexbox, Grid, Javascript, BOOTSTRA.386", src: me },
 	{ href: "https://mia-salazar.github.io/reddit-searcher/", text:"Reactjs, React Hooks, Custom Hooks, API Rest, Nes CSS, HTML5, CSS3, SASS, Flexbox, Grid, Javascript,", src: pollution },
 	{ href: "http://teresa-salazar.surge.sh/", text:"Reactjs, Javascript, CSS3, HTML5, BEM, SASS, Grid, Flexbox, i18n, Classnames, librerías, Formspree, lazy load", src: teresa },
+	{ href: "https://mia-salazar.github.io/connect-4/", text:"Reactjs, Javascript, CSS3, HTML5, Grid, Flexbox, PaperCSS", src: connect },
 	{ href: "https://github.com/Mia-Salazar/marvel-react", text:"Reactjs, React Hooks, HTML5, CSS3, SASS, Flexbox, Grid, Semantic UI, Javascript, API Rest", src: marvel },
 	{ href: "https://github.com/Mia-Salazar/shop-redux", text:"Angular, Typescript, Tailwind, Redux, API Rest, CSS3, HTML5, SASS, Grid, Flexbox", src: lotr },
 	{ href: "https://github.com/Mia-Salazar/spotiapp", text:"Angular, Typescript, API Rest, CSS3, HTML5, SASS, Grid, Flexbox, Boostrap 4", src: spotiapp },
