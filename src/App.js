@@ -1,26 +1,33 @@
 import React, { useEffect, useState } from "react";
 import { withTranslation } from "react-i18next";
-import { Switch,Route } from "react-router-dom";
+import { Switch,Route, useLocation } from "react-router-dom";
 
 import { Stars } from "../src/app/components/molecules/Stars/Stars";
 import { Spaceship } from "../src/app/components/atoms/Spaceship/Spaceship";
 import { Header } from "../src/app/components/molecules/Header/Header";
 import { Footer } from "../src/app/components/molecules/Footer/Footer";
 import { NavbarContainer } from "../src/app/components/organisms/NavbarContainer/NavbarContainer";
+
 import { About } from "../src/app/pages/About/About";
 import { Skills } from "../src/app/pages/Skills/Skills";
 import { Portfolio } from "../src/app/pages/Portfolio/Portfolio";
 import { Awards } from "../src/app/pages/Awards/Awards";
 import { Contact } from "../src/app/pages/Contact/Contact";
 import { useWindowDimensions } from "./app/utils/functionalities/getWidth";
+
 import "./App.scss";
 
 const App = () => {
+	const location = window.location.pathname;
 	const numberOfStarts = Math.floor(Math.random() * 50) + 20;
+
+	const { pathname } = useLocation();
 	const { width } = useWindowDimensions();
+
 	const [menuOpen, setMenuOpen] = useState(false);
 	const [activeLink, setActiveLink] = useState("");
 	const [menuOpenFirstTime, setMenuOpenFirstTime] = useState(false);
+
 	const openMenu = (link) => {
 		if (!menuOpenFirstTime) {
 			setMenuOpenFirstTime(true);
@@ -31,9 +38,9 @@ const App = () => {
 		}
 		setActiveLink(link.toString());
 	};
+
 	useEffect(() => {
-		const location = window.location.pathname;
-		if (location !== "/") {
+		if (pathname !== "/") {
 			const link = location.replace("/", "");
 			if (width < 992) {
 				setMenuOpen(false);
