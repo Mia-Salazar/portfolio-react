@@ -9,7 +9,7 @@
     border-bottom: toRem(4) solid $primary-color;
     background-color: $primary-color-light;
 
-    @media (max-width: 991px) {
+    @media (max-width: 991.99px) {
         max-width: toRem(250);
         margin-right: auto;
         margin-left: auto;
