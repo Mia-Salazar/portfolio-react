@@ -1,5 +1,11 @@
 @import './assets/stylesheets/styles.scss';
 
+* {
+    &:focus {
+        outline: 1px solid #13ff09;
+    }
+}
+
 html {
     background-color: $secondary-color;
 }
@@ -35,4 +41,10 @@ html {
     @media (max-width: 991px) {
         display: none;
     }
+}
+
+.skip {
+    left: -999em;
+    position: absolute;
+    transform: translateY(-100%);
 }

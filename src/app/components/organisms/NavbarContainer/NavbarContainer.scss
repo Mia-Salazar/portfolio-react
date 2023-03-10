@@ -1,12 +1,27 @@
 @import '../../../../assets/stylesheets/settings/toRem';
 
-.navbar-container {
-    & > .button {
-        display: flex;
-        margin: toRem(24) auto 0 auto;
+.navbar + .button {
+    display: flex;
+    margin: toRem(24) auto 0 auto;
 
-        @media (min-width: 992px) {
-            display: none;
+    @media (min-width: 992px) {
+        display: none;
+    }
+
+
+}
+
+.navbar-container {
+    &__skip-wrapper {
+        .button {
+            margin-bottom: 16px;
+
+            @media (max-width: 991px) {
+                position: absolute;
+                top: 0;
+                left: 1.5rem;
+            }
         }
+
     }
 }
