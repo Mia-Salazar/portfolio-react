@@ -36,7 +36,7 @@ export const Navbar = ({functionality, activeLink}) => {
 
 Navbar.propTypes = {
 	functionality: PropTypes.func.isRequired,
-	activeLink: PropTypes.string.isRequired,
+	activeLink: PropTypes.string,
 };
 
 Navbar.displayName = "Navbar";

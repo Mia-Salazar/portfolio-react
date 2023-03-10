@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { withTranslation } from "react-i18next";
-import { Switch,Route, useLocation } from "react-router-dom";
+import { Switch, Route, useLocation, useHistory } from "react-router-dom";
 
 import { Stars } from "../src/app/components/molecules/Stars/Stars";
 import { Spaceship } from "../src/app/components/atoms/Spaceship/Spaceship";
@@ -16,10 +16,13 @@ import { Contact } from "../src/app/pages/Contact/Contact";
 import { useWindowDimensions } from "./app/utils/functionalities/getWidth";
 
 import "./App.scss";
+import i18n from "./i18n";
 
 const App = () => {
+	const history = useHistory();
 	const location = window.location.pathname;
 	const numberOfStarts = Math.floor(Math.random() * 50) + 20;
+	const mainRef = useRef();
 
 	const { pathname } = useLocation();
 	const { width } = useWindowDimensions();
@@ -36,7 +39,15 @@ const App = () => {
 		if (menuOpenFirstTime && width < 992) {
 			setMenuOpen(!menuOpen);
 		}
-		setActiveLink(link.toString());
+		setActiveLink(link?.toString());
+	};
+
+	const skipToContent = () => {
+		if (pathname === "/") {
+			history.push("/about");
+			
+		}
+		openMenu();
 	};
 
 	useEffect(() => {
@@ -54,12 +65,13 @@ const App = () => {
 	}, [width]);
 	return (
 		<>
+			{!menuOpenFirstTime && <button className="skip" onClick={skipToContent}>{i18n.t("skip")}</button>}
 			<Stars numberOfStarts={numberOfStarts} />
 			<Spaceship/>
 			<Header open={menuOpen} openFunction={openMenu} openFirstTime={menuOpenFirstTime}/>
-			<div className="content">
-				<NavbarContainer menuOpen={menuOpen} menuOpenFirstTime={menuOpenFirstTime} functionality={openMenu} activeLink={activeLink}/>
-				<main>
+			<div className="content" id="main">
+				<NavbarContainer mainRef={mainRef} menuOpen={menuOpen} menuOpenFirstTime={menuOpenFirstTime} functionality={openMenu} activeLink={activeLink}/>
+				<main ref={mainRef} tabIndex={0}>
 					{ width >= 992 || (width < 992 && !menuOpen) ?
 						<Switch>
 							<Route exact path="/about" component={About} />

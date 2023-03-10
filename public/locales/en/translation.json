@@ -1,5 +1,6 @@
 {
     "footer": "Follow me on {{key}}",
+    "skip": "Skip to content",
     "navbar": {
         "continue": "Continue",
         "about": "About me",
