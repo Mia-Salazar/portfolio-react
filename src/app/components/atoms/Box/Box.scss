@@ -6,9 +6,9 @@
     height: 100%;
     margin: 0;
     padding: toRem(24);
-    border-top: toRem(2) solid $primary-color;
-    border-bottom: toRem(4) solid $primary-color;
-    background-color: $primary-color-light;
+    border-top: toRem(2) solid var(--primary-color);
+    border-bottom: toRem(4) solid var(--primary-color);
+    background-color: var(--primary-color-light);
 
     @media (max-width: 991px) {
         margin-top: toRem(48);
@@ -28,12 +28,12 @@
         }
             
         &::-webkit-scrollbar-track {
-            background: $primary-color;
+            background: var(--primary-color);
         }
         
         &::-webkit-scrollbar-thumb {
-            background-color: $primary-color-light;
-            border: 3px solid $primary-color;
+            background-color: var(--primary-color-light);
+            border: 3px solid var(--primary-color);
         }
     }
 }

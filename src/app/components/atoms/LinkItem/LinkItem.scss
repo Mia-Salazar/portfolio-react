@@ -5,16 +5,16 @@
 .link-item {
     @include main-font;
     padding: toRem(8) toRem(16);
-    background-color: $primary-color-light;
-    border: 1px solid $primary-color;
-    color: $primary-color;
+    background-color: var(--primary-color-light);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
     text-align: center;
     text-decoration: none;
     cursor: pointer;
 
     &:hover {
-        background-color: $primary-color;
-        color: $primary-color-light;
+        background-color: var(--primary-color);
+        color: var(--primary-color-light);
     }
 
     &--simple {

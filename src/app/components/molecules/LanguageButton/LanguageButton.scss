@@ -14,11 +14,11 @@
         padding: 8px;
         border: none;
         background-color: transparent;
-        color: $primary-color;
+        color: var(--primary-color);
 
         &--active, &:hover {
-            background-color: $primary-color;
-            color: $primary-color-light;
+            background-color: var(--primary-color);
+            color: var(--primary-color-light);
         }
     }
 }

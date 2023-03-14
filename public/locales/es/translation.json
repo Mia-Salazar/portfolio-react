@@ -1,6 +1,7 @@
 {
     "footer": "Sígueme en {{key}}",
     "skip": "Saltar al contenido",
+    "theme": "Cambiar tema",
     "navbar": {
         "continue": "Continuar",
         "about": "Sobre mí",

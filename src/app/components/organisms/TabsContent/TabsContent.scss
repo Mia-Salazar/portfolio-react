@@ -5,6 +5,6 @@
 .tabs-text {
     @include text-font;
     margin-top: 0;
-    border-top: toRem(1) solid $primary-color;
+    border-top: toRem(1) solid var(--primary-color);
     padding-top: toRem(16);
 }

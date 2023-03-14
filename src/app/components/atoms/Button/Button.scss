@@ -5,14 +5,14 @@
 .button {
     @include main-font;
     padding: toRem(8) toRem(16);
-    background-color: $primary-color-light;
-    color: $primary-color;
+    background-color: var(--primary-color-light);
+    color: var(--primary-color);
     border: none;
     cursor: pointer;
 
     &:hover, &--selected, &:disabled {
-        background-color: $primary-color;
-        color: $primary-color-light;
+        background-color: var(--primary-color);
+        color: var(--primary-color-light);
     }
 
     &--back {
@@ -22,18 +22,23 @@
     }
 
     &--filled {
-        background-color: $primary-color;
-        color: $primary-color-light;
+        background-color: var(--primary-color);
+        color: var(--primary-color-light);
 
         &:hover, &:disabled {
-            background-color: $primary-color-light;
-            border: 1px solid $primary-color;
-            color: $primary-color;
+            background-color: var(--primary-color-light);
+            border: 1px solid var(--primary-color);
+            color: var(--primary-color);
         }
     }
 
     &--ghost {
-        border: 1px solid $primary-color;
+        border: 1px solid var(--primary-color);
+    }
+
+    &--small {
+        font-size: 12px;
+        padding: toRem(4);
     }
 
     &:disabled {

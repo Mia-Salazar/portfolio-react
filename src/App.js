@@ -15,10 +15,13 @@ import { Awards } from "../src/app/pages/Awards/Awards";
 import { Contact } from "../src/app/pages/Contact/Contact";
 import { useWindowDimensions } from "./app/utils/functionalities/getWidth";
 
+import { useThemeContext } from "./app/context/ThemeContext";
+
 import "./App.scss";
 import i18n from "./i18n";
 
 const App = () => {
+	const {theme} = useThemeContext();
 	const history = useHistory();
 	const location = window.location.pathname;
 	const numberOfStarts = Math.floor(Math.random() * 50) + 20;
@@ -44,8 +47,7 @@ const App = () => {
 
 	const skipToContent = () => {
 		if (pathname === "/") {
-			history.push("/about");
-			
+			history.push("/about");			
 		}
 		openMenu();
 	};
@@ -64,7 +66,7 @@ const App = () => {
 		}
 	}, [width]);
 	return (
-		<>
+		<div className={theme === "dark" ? "dark-theme container" : "light-theme container"}>
 			{!menuOpenFirstTime && <button className="skip" onClick={skipToContent}>{i18n.t("skip")}</button>}
 			<Stars numberOfStarts={numberOfStarts} />
 			<Spaceship/>
@@ -87,7 +89,7 @@ const App = () => {
 			<footer className="footer">
 				<Footer/>
 			</footer>
-		</>
+		</div>
 	);
 }; 
 

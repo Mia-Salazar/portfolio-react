@@ -9,7 +9,6 @@
     left: 0%;
     transform: scale(0.8);
     animation: travelling  40s infinite;
-    z-index: $z-index-infra;
 
     &__window {
         position: absolute;
@@ -40,7 +39,7 @@
         display: block;
         width: toRem(25);
         height: toRem(11);
-        background: $white;
+        background: #fff;
         transform: rotate(50deg);
     }
   
@@ -51,7 +50,7 @@
         display: block;
         width: toRem(25);
         height: toRem(11);
-        background: $white;
+        background: #fff;
         transform: rotate(-50deg);
     }
   
@@ -60,7 +59,6 @@
         left: toRem(28);
         bottom: toRem(5);
         transform: rotate(180deg);
-        z-index: $z-index-infra;
     }
 
     &__flame {
@@ -68,10 +66,10 @@
         left: toRem(4); 
         height: 0;
         width: 0;
-        border: toRem(8) solid $red;
+        border: toRem(8) solid var(--error);
         border-radius: 50%;
         border-top-left-radius: 0;
-        background-color: $red;
+        background-color: var(--error);
         transform: rotate(45deg);
         animation: shine-middle 1.5s infinite;
 

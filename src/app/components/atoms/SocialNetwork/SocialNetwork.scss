@@ -15,21 +15,21 @@
 
     &:hover {
         .social-item__link {
-            background-color: $primary-color;
+            background-color: var(--primary-color);
         }
     
         .social-item__icon {
-            color: $primary-color-light;
+            color: var(--primary-color-light);
         }
     }
 
     &__link {
         padding: toRem(10) toRem(8) toRem(4) toRem(8);
-        background-color: $primary-color-light;
+        background-color: var(--primary-color-light);
     }
 
     &__icon {
-        color: $primary-color;
+        color: var(--primary-color);
         font-size: $font-size-m;
     }
 }
