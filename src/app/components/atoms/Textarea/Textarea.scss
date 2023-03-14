@@ -5,6 +5,6 @@
     @include input-styles;
 
     &:focus {
-        outline: 1px solid $primary-color;
+        outline: 1px solid var(--primary-color);
     }
 }

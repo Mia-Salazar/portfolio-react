@@ -1,16 +1,18 @@
 @import './assets/stylesheets/styles.scss';
 
 * {
+    z-index: 0;
+
     &:focus {
         outline: 1px solid #13ff09;
     }
 }
 
 html {
-    background-color: $secondary-color;
+    background-color: #000;
 }
 
-#root {
+.container {
     height: 100vh;
     position: relative;
     display: flex;

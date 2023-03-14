@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import "./Stars.scss";
 import { Star } from "../../atoms/Star/Star";
 
 export const Stars = ({numberOfStarts}) => {

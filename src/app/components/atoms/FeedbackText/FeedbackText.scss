@@ -8,7 +8,7 @@
     }
 
     &--failure, &--feedback {
-        color: $red;
+        color: var(--error);
     }
 
     &--feedback {

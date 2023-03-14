@@ -8,7 +8,7 @@
 
     &--active {
         .portfolio-item__img-container {
-            background-color: $primary-color;
+            background-color: var(--primary-color);
         }
 
         .portfolio-item__img-text {
@@ -48,7 +48,7 @@
         display: flex;
         align-items: center;
         padding: toRem(40);
-        color: $primary-color-light;
+        color: var(--primary-color-light);
         font-family: $font-family-secondary;
         font-weight: 400;
         text-align: center;

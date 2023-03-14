@@ -3,18 +3,20 @@ import PropTypes from "prop-types";
 
 import { Button } from "../../atoms/Button/Button";
 import { Navbar } from "../../organisms/Navbar/Navbar";
+
 import "./NavbarContainer.scss";
 
 export const NavbarContainer = ({functionality, menuOpen, menuOpenFirstTime, activeLink, mainRef}) => {
 	const changeFocus = () => {
 		mainRef.current.focus();
 	};
+
 	return (
 		<div className="navbar-container">
 			{ menuOpen && 
 				<>
 					<div className="navbar-container__skip-wrapper">
-						<Button functionality={changeFocus} text="skip" />
+						<Button functionality={changeFocus} text="skip" modificator="small" />
 					</div>
 					<Navbar functionality={functionality} activeLink={activeLink}/>
 				</> 

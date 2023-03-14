@@ -1,8 +1,22 @@
-$primary-color: #13ff09;
-$primary-color-light: #003300;
-$secondary-color: #000;
-$white: #fff;
-$red: #ff2f0e;
+.light-theme {
+    --primary-color: #000;
+    --primary-color-light: #fff;
+    --secondary-color: #fff;
+    --empty: #000;
+    --error: #ff2f0e;
+    --star-color: transparent;
+    --border-color: transparent;
+}
+
+.dark-theme {
+    --primary-color: #13ff09;
+    --primary-color-light: #003300;
+    --secondary-color: #000;
+    --empty: #fff;
+    --error: #ff2f0e;
+    --star-color: #fff;
+    --border-color: #13ff09;
+}
 
 $font-family-primary: 'Francois One', sans-serif;
 $font-family-secondary: 'Roboto Condensed', sans-serif;

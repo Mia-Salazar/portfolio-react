@@ -5,6 +5,6 @@
 .title {
     @include secondary-font;
     margin-top: 0;
-    color: $primary-color;
+    color: var(--primary-color);
     font-weight: 400;
 }

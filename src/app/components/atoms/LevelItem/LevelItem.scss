@@ -6,8 +6,8 @@
     margin: 0;
     padding: toRem(8) toRem(16);
     background-color: transparent;
-    border: toRem(2) solid $primary-color;
-    color: $primary-color;
+    border: toRem(2) solid var(--primary-color);
+    color: var(--primary-color);
     font-family: $font-family-secondary;
     font-weight: 600;
     text-align: center;
@@ -17,8 +17,8 @@
     }
 
     &--active {
-        background-color: $primary-color;
-        color: $primary-color-light;
+        background-color: var(--primary-color);
+        color: var(--primary-color-light);
 
         @media (max-width: 768px) {
             display: block;

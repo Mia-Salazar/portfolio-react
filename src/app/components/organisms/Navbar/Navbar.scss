@@ -5,9 +5,9 @@
 .navbar {
     max-width: toRem(175);
     padding: toRem(24) 0;
-    border-top: toRem(2) solid $primary-color;
-    border-bottom: toRem(4) solid $primary-color;
-    background-color: $primary-color-light;
+    border-top: toRem(2) solid var(--border-color);
+    border-bottom: toRem(4) solid var(--border-color);
+    background-color: var(--primary-color-light);
 
     @media (max-width: 991.99px) {
         max-width: toRem(250);
@@ -26,23 +26,27 @@
     &__list-item {
         &:hover {
             .navbar__link {
-                color: $primary-color-light;
-                background-color: $primary-color;
+                color: var(--primary-color-light);
+                background-color: var(--primary-color);
             }
         }
     }
 
+    &__theme-container {
+        margin: toRem(12) toRem(18) 0 toRem(18);
+    }
+
     &__link {
         &--active {
-            color: $primary-color-light;
-            background-color: $primary-color;
+            color: var(--primary-color-light);
+            background-color: var(--primary-color);
         }
 
         @include secondary-font;
         width: 100%;
         display: block;
         padding: toRem(8) toRem(18);
-        color: $primary-color;
+        color: var(--primary-color);
         font-size: $font-size-m;
         text-decoration: none;
         line-height: toRem(24);
