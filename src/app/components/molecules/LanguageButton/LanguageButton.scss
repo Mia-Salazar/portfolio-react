@@ -3,11 +3,7 @@
 @import '../../../../assets/stylesheets/settings/mixins';
 
 .language-buttons {
-    margin: toRem(12) toRem(18) toRem(24) toRem(18);
-
-    @media (min-width: 992px) {
-        margin-bottom: 0;
-    }
+    margin: toRem(12) toRem(18) 0 toRem(18);
 
     &__item {
         @include main-font;
