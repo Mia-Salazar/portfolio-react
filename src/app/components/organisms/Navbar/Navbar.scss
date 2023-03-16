@@ -33,7 +33,11 @@
     }
 
     &__theme-container {
-        margin: toRem(12) toRem(18) 0 toRem(18);
+        padding: toRem(12) toRem(18) toRem(18) toRem(18);
+
+        @media (min-width: 992px) {
+            padding-bottom: 0;
+        }
     }
 
     &__link {
