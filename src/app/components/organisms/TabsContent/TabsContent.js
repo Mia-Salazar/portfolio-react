@@ -1,21 +1,27 @@
 import React, { useEffect, useState } from "react";
 
+import { articleConstructor } from "../../../models/ArticlesModel";
+
 import i18n from "../../../../i18n";
 import { awardsArray } from "../../../utils/data/awardsArray";
 import { awardsFilter } from "../../../utils/data/awardsFilter";
 import { Filter } from "../../molecules/Filter/Filter";
 import { AwardItem } from "../../molecules/AwardItem/AwardItem";
+
 import "./TabsContent.scss";
 
 export const TabsContent = () => {
-	const [awardContent, setAwardContent] = useState(awardsArray.filter(element => element.type === "article"));
+	const [contentArray, setContentArray] = useState(awardsArray);
 	const [filter, setFilter] = useState("article");
+
 	const changeFilter = (filterNew) => {
 		setFilter(filterNew);
 	};
+
 	const filterFunction = () => {
-		return awardsArray.filter(element => element.type === filter);
+		return contentArray.filter(element => element.type === filter);
 	};
+
 	const filterTextFunction = () => {
 		if (filter === "article") {
 			return "awards.articlesText";
@@ -25,16 +31,23 @@ export const TabsContent = () => {
 			return "awards.othersText";
 		}
 	};
+
 	useEffect(() => {
-		setAwardContent(filterFunction(filter));
-	}, [filter]);
+		fetch("https://dev.to/api/articles?username=miasalazar")
+			.then(response => response.json())
+			.then(data => {
+				data.map(articleConstructor);
+				setContentArray(prevState => [...data, ...prevState]);
+			});
+	}, []);
+
 	return (
 		<>
 			<Filter buttonFunctionality={changeFilter} filterActive={filter} array={awardsFilter}/>
 			<p className="tabs-text">{i18n.t(filterTextFunction())}</p>
 			<ul>
 				{
-					awardContent.map((item, index) => {
+					filterFunction().map((item, index) => {
 						return(
 							<AwardItem item={item} key={index}/>
 						);
