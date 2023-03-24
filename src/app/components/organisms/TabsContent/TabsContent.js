@@ -35,10 +35,8 @@ export const TabsContent = () => {
 	useEffect(() => {
 		fetch("https://dev.to/api/articles?username=miasalazar")
 			.then(response => response.json())
-			.then(data => {
-				data.map(articleConstructor);
-				setContentArray(prevState => [...data, ...prevState]);
-			});
+			.then(data => data.map(articleConstructor))
+			.then(data => setContentArray(prevState => [...data, ...prevState]));
 	}, []);
 
 	return (

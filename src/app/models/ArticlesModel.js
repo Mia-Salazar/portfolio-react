@@ -3,7 +3,7 @@ const ArticleModel = {aria: "awards.programming", icon: "file-alt", target:"_bla
 const articleConstructor = ({title, canonical_url, type_of
 }) => {
 	return Object.assign(
-		{...ArticleModel}, { text: title, href: canonical_url, type: type_of}
+		{...ArticleModel}, {text: title, href: canonical_url, type: type_of}
 	);
 };
 
