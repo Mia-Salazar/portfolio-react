@@ -4,7 +4,7 @@
 .list-item {
     display: grid;
     align-items: center;
-    grid-template-columns: toRem(32) 1fr;
+    grid-template-columns: toRem(46) 1fr;
     list-style-type: none;
 
     .fas {
@@ -12,9 +12,20 @@
         font-size: toRem(14);
     }
 
+    &__lang {
+        margin-left: toRem(8);
+        padding: toRem(2);
+        color: var(--primary-color-light);
+        font-family: $font-family-secondary;
+        font-weight: bold;
+        font-size: toRem(12);
+        line-height: toRem(13);
+        background-color: var(--primary-color);
+    }
+
     &__icon-container {
-        display: flex;
-        justify-content: center;
-        margin-right: toRem(4);
+        display: grid;
+        grid-template-columns: toRem(12) toRem(24);
+        grid-gap: toRem(4);
     }
 }
