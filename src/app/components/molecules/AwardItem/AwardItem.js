@@ -10,7 +10,7 @@ export const AwardItem = ({item}) => {
 		<li className="list-item">
 			<div className="list-item__icon-container">
 				<span className={`fas fa-${item.icon}`} aria-label={i18n.t(item.aria)} title={i18n.t(item.aria)}></span>
-				<span>{item.lang}</span>
+				<span className="list-item__lang">{item.lang}</span>
 			</div>
 			<LinkItem text={item.text} href={item.href} target={item.target} modificator="simple"/>
 		</li>

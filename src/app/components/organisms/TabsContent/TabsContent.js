@@ -12,18 +12,15 @@ import "./TabsContent.scss";
 
 export const TabsContent = () => {
 	const [contentArray, setContentArray] = useState(awardsArray);
-	const [contentArraySelected, setContentArraySelected] = useState([]);
 	const [filter, setFilter] = useState("article");
 
 	const changeFilter = (filterNew) => {
 		setFilter(filterNew);
-		const content = contentArray.filter(element => element.type === filter);
-		setContentArraySelected(content);
 	};
 
-	//const filterFunction = () => {
-	//return content;
-	//};
+	const filterFunction = () => {
+		return contentArray.filter(element => element.type === filter);
+	};
 
 	const filterTextFunction = () => {
 		if (filter === "article") {
@@ -38,11 +35,8 @@ export const TabsContent = () => {
 	useEffect(() => {
 		fetch("https://dev.to/api/articles?username=miasalazar")
 			.then(response => response.json())
-			.then(data => {
-				data.map(articleConstructor);
-				setContentArray(prevState => [...data, ...prevState]);
-				setContentArraySelected();
-			});
+			.then(data => data.map(articleConstructor))
+			.then(data => setContentArray(prevState => [...data, ...prevState]));
 	}, []);
 
 	return (
@@ -51,7 +45,7 @@ export const TabsContent = () => {
 			<p className="tabs-text">{i18n.t(filterTextFunction())}</p>
 			<ul>
 				{
-					contentArraySelected.map((item, index) => {
+					filterFunction().map((item, index) => {
 						return(
 							<AwardItem item={item} key={index}/>
 						);

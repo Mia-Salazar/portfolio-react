@@ -19,7 +19,7 @@
 
     &--simple {
         display: block;
-        padding: toRem(8);
+        padding: toRem(8) toRem(8) toRem(8) toRem(4);
         border: none;
         text-align: start;
         text-transform: none;
