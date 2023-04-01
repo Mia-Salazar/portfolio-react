@@ -43,7 +43,7 @@ export const TabsContent = () => {
 		<>
 			<Filter buttonFunctionality={changeFilter} filterActive={filter} array={awardsFilter}/>
 			<p className="tabs-text">{i18n.t(filterTextFunction())}</p>
-			<ul>
+			<ul role="tabpanel" tabIndex="0" aria-labelledby={"tab-" + filter}>
 				{
 					filterFunction().map((item, index) => {
 						return(
