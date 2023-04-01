@@ -11,7 +11,7 @@ export const Filter = ({buttonFunctionality, filterActive, array}) => {
 				array.map((item) => {
 					return(
 						<Button role="tab" key={item.value} text={item.text}
-							id={"tab-" + item.value} aria-controls={"panel-" + item.value} tabindex={ filterActive === item.value ? 0 : -1}
+							id={"tab-" + item.value} aria-controls={"panel-" + item.value} tabIndex={ filterActive === item.value ? 0 : -1}
 							functionality={() => buttonFunctionality(item.value)} modificator={filterActive === item.value ? "selected" : ""}
 							aria-selected={filterActive === item.value ? true : false}/>
 					);
