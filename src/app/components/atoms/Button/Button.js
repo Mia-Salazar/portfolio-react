@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 import i18n from "../../../../i18n";
 import "./Button.scss";
 
-export const Button = ({ text, type = "button", functionality, modificator, disabled = false}) => {
+export const Button = ({ text, type = "button", functionality, modificator, disabled = false, ...rest}) => {
 	return (
-		<button className={modificator ? `button button--${modificator}` : "button"} onClick={functionality} type={type} disabled={disabled}>{i18n.t(text)}</button>
+		<button {...rest} className={modificator ? `button button--${modificator}` : "button"} onClick={functionality} type={type} disabled={disabled}>{i18n.t(text)}</button>
 	);
 };
 
