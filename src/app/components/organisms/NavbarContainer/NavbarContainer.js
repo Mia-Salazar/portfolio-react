@@ -32,7 +32,7 @@ NavbarContainer.propTypes = {
 	mainRef: PropTypes.object.isRequired,
 	menuOpen: PropTypes.bool.isRequired,
 	menuOpenFirstTime: PropTypes.bool.isRequired,
-	functionality: PropTypes.func.isRequired,
+	openMenu: PropTypes.func.isRequired,
 	activeLink: PropTypes.string,
 	changeRoute: PropTypes.func.isRequired,
 };
