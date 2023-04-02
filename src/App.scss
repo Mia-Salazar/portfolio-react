@@ -46,7 +46,8 @@ html {
 }
 
 .skip {
-    left: -999em;
     position: absolute;
-    transform: translateY(-100%);
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
