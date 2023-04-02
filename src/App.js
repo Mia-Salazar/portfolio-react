@@ -7,6 +7,7 @@ import { Spaceship } from "../src/app/components/atoms/Spaceship/Spaceship";
 import { Header } from "../src/app/components/molecules/Header/Header";
 import { Footer } from "../src/app/components/molecules/Footer/Footer";
 import { NavbarContainer } from "../src/app/components/organisms/NavbarContainer/NavbarContainer";
+import Button from "./app/components/atoms/Button/Button";
 
 import { About } from "../src/app/pages/About/About";
 import { Skills } from "../src/app/pages/Skills/Skills";
@@ -18,7 +19,6 @@ import { useWindowDimensions } from "./app/utils/functionalities/getWidth";
 import { useThemeContext } from "./app/context/ThemeContext";
 
 import "./App.scss";
-import i18n from "./i18n";
 
 const App = () => {
 	const {theme} = useThemeContext();
@@ -69,9 +69,10 @@ const App = () => {
 			setActiveLink("navbar." + link);
 		}
 	}, [width]);
+
 	return (
 		<div className={theme === "dark" ? "dark-theme container" : "light-theme container"}>
-			{!menuOpenFirstTime && <button className="skip" onClick={skipToContent}>{i18n.t("skip")}</button>}
+			{!menuOpenFirstTime && <div className="skip"><Button functionality={skipToContent} text="skip" /></div>}
 			<Stars numberOfStarts={numberOfStarts} />
 			<Spaceship/>
 			<Header open={menuOpen} openFunction={openMenu} openFirstTime={menuOpenFirstTime}/>
