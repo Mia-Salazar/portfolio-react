@@ -45,10 +45,14 @@ const App = () => {
 		setActiveLink(link?.toString());
 	};
 
-	const skipToContent = () => {
+	const checkRoute = () => {
 		if (pathname === "/") {
 			history.push("/about");			
 		}
+	};
+
+	const skipToContent = () => {
+		checkRoute();
 		openMenu();
 	};
 
@@ -72,7 +76,8 @@ const App = () => {
 			<Spaceship/>
 			<Header open={menuOpen} openFunction={openMenu} openFirstTime={menuOpenFirstTime}/>
 			<div className="content" id="main">
-				<NavbarContainer mainRef={mainRef} menuOpen={menuOpen} menuOpenFirstTime={menuOpenFirstTime} functionality={openMenu} activeLink={activeLink}/>
+				<NavbarContainer mainRef={mainRef} menuOpen={menuOpen} menuOpenFirstTime={menuOpenFirstTime}
+					openMenu={openMenu} activeLink={activeLink} changeRoute={checkRoute}/>
 				<main ref={mainRef} tabIndex={0}>
 					{ width >= 992 || (width < 992 && !menuOpen) ?
 						<Switch>
