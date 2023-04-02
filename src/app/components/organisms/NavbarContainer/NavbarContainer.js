@@ -6,8 +6,9 @@ import { Navbar } from "../../organisms/Navbar/Navbar";
 
 import "./NavbarContainer.scss";
 
-export const NavbarContainer = ({functionality, menuOpen, menuOpenFirstTime, activeLink, mainRef}) => {
+export const NavbarContainer = ({openMenu, menuOpen, menuOpenFirstTime, activeLink, mainRef, changeRoute}) => {
 	const changeFocus = () => {
+		changeRoute();
 		mainRef.current.focus();
 	};
 
@@ -18,11 +19,11 @@ export const NavbarContainer = ({functionality, menuOpen, menuOpenFirstTime, act
 					<div className="navbar-container__skip-wrapper">
 						<Button functionality={changeFocus} text="skip" modificator="small" />
 					</div>
-					<Navbar functionality={functionality} activeLink={activeLink}/>
+					<Navbar functionality={openMenu} activeLink={activeLink}/>
 				</> 
 			}
-			{ menuOpen && menuOpenFirstTime && <Button text="navbar.back" functionality={functionality}></Button> }
-			{ !menuOpen && menuOpenFirstTime && <Button text="navbar.menu" functionality={functionality} modificator="back"></Button> }
+			{ menuOpen && menuOpenFirstTime && <Button text="navbar.back" functionality={openMenu}></Button> }
+			{ !menuOpen && menuOpenFirstTime && <Button text="navbar.menu" functionality={openMenu} modificator="back"></Button> }
 		</div>
 	);
 };
@@ -33,6 +34,7 @@ NavbarContainer.propTypes = {
 	menuOpenFirstTime: PropTypes.bool.isRequired,
 	functionality: PropTypes.func.isRequired,
 	activeLink: PropTypes.string,
+	changeRoute: PropTypes.func.isRequired,
 };
 
 NavbarContainer.displayName = "NavbarContainer";
