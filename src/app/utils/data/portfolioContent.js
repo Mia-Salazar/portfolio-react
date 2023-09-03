@@ -20,8 +20,10 @@ import xcjgames from "../../../assets/images/xcjgames.PNG";
 import pollution from "../../../assets/images/pollution.png";
 import me from "../../../assets/images/me.png";
 import connect from "../../../assets/images/connect.png";
+import foodiesaurus from "../../../assets/images/foodiesaurus.png";
 
 export const portfolioArray = [
+	{ href: "https://foodiesaurus.com/", text:"HTML5, CSS3, Javascript, PHP, MySQL, phpMyAdmin", src: foodiesaurus },
 	{ href: "https://enthec.com", text:"Angular, HTML5, CSS3, SASS, Flexbox, Grid, Typescript, API Rest, i18n, BEM Methodology, Accesibility", src: enthec },
 	{ href: "https://kartos.enthec.com", text:"Angular, Angular Material, Redux, HTML5, CSS3, SASS, Flexbox, Grid, i18n, BEM Methodology, Typescript, API Rest, Accesibility", src: kartos },
 	{ href: "http://xcjgames.surge.sh/", text:"Reactjs, React Hooks, Jest, Testing-library, HTML5, CSS3, SASS, Flexbox, Grid, Javascript,", src: xcjgames },
