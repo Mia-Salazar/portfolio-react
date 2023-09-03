@@ -45,6 +45,7 @@
         "subtitle": "En este panel puedes ver las misiones en las que he participado dentro de la Alianza Galáctica de Programadores. Algunas misiones sucedieron en el cúmulo de estrellas de React, otros en el de Angular y algunos menos en el de Vue. Dentro de cada misión, he empleado diferentes lenguajes y habilidades."
     },
     "awards": {
+        "mentor": "Mentor at Step4Ward",
         "textOne": "A lo largo de mi carrera en la Alianza, he  he escrito informes sobre las diferentes misiones que he realizado y he participado en varios proyectos terrestres con otros miembros de la Alianza",
         "scientificText": "Aquí puedes ver los artículos científicos que escribí durante mi etapa pre-galáctica.",
         "articlesText": "Aquí puedes ver los diferentes informes que he escrito, tanto los de programación como los de ciberseguridad.",
