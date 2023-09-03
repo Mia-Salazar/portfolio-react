@@ -72,13 +72,15 @@ const App = () => {
 
 	return (
 		<div className={theme === "dark" ? "dark-theme container" : "light-theme container"}>
-			{!menuOpenFirstTime && <div className="skip"><Button functionality={skipToContent} text="skip" /></div>}
+			<div className="skip">
+				<Button functionality={skipToContent} text="skip" />
+			</div>
 			<Stars numberOfStarts={numberOfStarts} />
 			<Spaceship/>
 			<Header open={menuOpen} openFunction={openMenu} openFirstTime={menuOpenFirstTime}/>
 			<div className="content" id="main">
-				<NavbarContainer mainRef={mainRef} menuOpen={menuOpen} menuOpenFirstTime={menuOpenFirstTime}
-					openMenu={openMenu} activeLink={activeLink} changeRoute={checkRoute}/>
+				<NavbarContainer menuOpen={menuOpen} menuOpenFirstTime={menuOpenFirstTime}
+					openMenu={openMenu} activeLink={activeLink} />
 				<main ref={mainRef} tabIndex={0}>
 					{ width >= 992 || (width < 992 && !menuOpen) ?
 						<Switch>
