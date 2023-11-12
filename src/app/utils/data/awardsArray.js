@@ -32,4 +32,5 @@ export const awardsArray = [
 	
 	{ lang: "es", aria: "awards.videogames", icon: "gamepad", target: "_blank", text: "awards.videogame", href: "https://xcjgames.itch.io/treeventure", type: "others" },
 	{ lang: "es", aria: "awards.videogames", icon: "gamepad", target: "_blank", text: "awards.videogameTwo", href: "https://xcjgames.itch.io/damng-la-balada-del-capitan", type: "others" },
+	{ lang: "es", aria: "awards.talks", icon: "gamepad", target: "_blank", text: "awards.otherOne", href: "https://www.telemadrid.es/programas/nos-vemos-en-el-bar/Nos-vemos-en-el-bar-Bares-divertidos-2-2607959198--20231021103000.html", type: "others" },
 ];
