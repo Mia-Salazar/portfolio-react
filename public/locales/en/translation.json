@@ -45,6 +45,7 @@
         "subtitle": "In this panel you can see the missions in which I have participated within the Galactic Alliance of Programmers. Some missions happened in React's star cluster, others in Angular, and some less in Vue's. Within each mission, I have used different languages ​​and skills."
     },
     "awards": {
+        "techshessionsOne": "TechSHEssionsfirst speech: May the allergy be with you",
         "otherOne": "Participation in Telemadrid on a board game event",
         "mentor": "Mentor at Step4Ward",
         "mentorTwo": "Short talk at Pulpocon 2023 ",
