@@ -1,4 +1,5 @@
 export const awardsArray = [
+	{ lang: "es", aria: "awards.talks", icon: "venus", target: "_blank", text: "awards.techshessionsOne", href: "https://www.youtube.com/watch?v=CpuxfoV71E0&feature=youtu.be&ab_channel=CommitConf", type: "others" },
 	{ lang: "es", aria: "awards.talks", icon: "venus", target: "_blank", text: "awards.talksOne", href: "https://eventos.uc3m.es/70884/section/33597/ciencia-y-tecnologia-en-femenino.-programa-e-inauguracion-exposicion.html", type: "others" },
 	{ lang: "es", aria: "awards.interviewText", icon: "venus", target: "_blank", text: "awards.interview", href: "https://www.youtube.com/watch?v=ljT-Zwobxos&feature=emb_title&ab_channel=ITgals", type: "others" },
 	{ lang: "es", aria: "awards.mentor", icon: "venus", target: "_blank", text: "awards.mentor", href: "https://step4ward.notion.site/2356c1e9894740da94da6fe491d15408?v=60faee110e404a97a5aa448190d36c63", type: "others" },
