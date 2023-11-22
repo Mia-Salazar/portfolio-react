@@ -8,6 +8,7 @@ export const awardsArray = [
 	{ lang: "en", aria: "awards.paper", icon: "atom", target: "_blank", text: "awards.coreaTwo", href: "https://institucional.us.es/revistas/publicidad/14/A5_Salazar%20Garcia-Rosales.pdf", type: "scientific" },
 	{ lang: "es", aria: "awards.paper", icon: "atom", target: "_blank", text: "awards.coreaThree", href: "https://drive.google.com/file/d/1vTwR7VHkjjmAU4i1XJxg7NnVgAm40l0Z/view?usp=sharing", type: "scientific" },
 	{ lang: "es", aria: "awards.talks", icon: "microphone", target: "_blank", text: "awards.talksTwo", href: "https://www.youtube.com/watch?v=3S9at2lYPjA", type: "others" },
+	{ lang: "es", aria: "awards.talks", icon: "microphone", target: "_blank", text: "awards.talksThree", href: "https://www.youtube.com/watch?v=oG3iu4LgzeY&t=4113s", type: "others" },
 
 	
 	{ lang: "en", aria: "awards.programming", icon: "file-alt", target: "_blank", text: "A Developer’s Nightmare: Web Accessibility", href: "https://medium.com/@marasalazar/developers-nightmare-web-accessibility-52b9a6890403", type: "article" },
