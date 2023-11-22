@@ -14,11 +14,11 @@ export const Skills = () => {
 			<p className="text">{i18n.t("skills.textOne")}</p>
 			<SkillItem levelStatus="veryHigh" text="skills.html" />
 			<SkillItem levelStatus="high" text="skills.js" />
-			<SkillItem levelStatus="medium" text="skills.framework" />
-			<SkillItem levelStatus="high" text="skills.css" />
-			<SkillItem levelStatus="medium" text="skills.accessibility" />
+			<SkillItem levelStatus="high" text="skills.framework" />
+			<SkillItem levelStatus="veryHigh" text="skills.css" />
+			<SkillItem levelStatus="high" text="skills.accessibility" />
 			<SkillItem levelStatus="medium" text="skills.redux" />
-			<SkillItem levelStatus="low" text="skills.testing" />
+			<SkillItem levelStatus="medium" text="skills.testing" />
 		</Box>
 	);
 };
