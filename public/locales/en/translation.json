@@ -45,6 +45,7 @@
         "subtitle": "In this panel you can see the missions in which I have participated within the Galactic Alliance of Programmers. Some missions happened in React's star cluster, others in Angular, and some less in Vue's. Within each mission, I have used different languages ​​and skills."
     },
     "awards": {
+        "t3chfest2024": "Sppech at T3ch Fest. Web accesibility: Guide for newbies",
         "techshessionsThree": "TechSHEssions third speech: Foodiesaurus, designing an accesible project",
         "techshessionsTwo": "TechSHEssions second speech: Foodiesaurus, project with sticks and stones",
         "interviewTwo": "IT Gals: Interview about my evolution in the world of technology",

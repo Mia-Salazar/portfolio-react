@@ -45,6 +45,7 @@
         "subtitle": "En este panel puedes ver las misiones en las que he participado dentro de la Alianza Galáctica de Programadores. Algunas misiones sucedieron en el cúmulo de estrellas de React, otros en el de Angular y algunos menos en el de Vue. Dentro de cada misión, he empleado diferentes lenguajes y habilidades."
     },
     "awards": {
+        "t3chfest2024": "Charla en el T3ch Fest. Accesibilidad web: Guía para noobies",
         "talksThree": "Entrevista sobre accesibilidad en DiscoDurodeRoer",
         "techshessionsThree": "TechSHEssions tercera charla: Foodiesaurus, diseñando un proyecto accesible",
         "techshessionsTwo": "TechSHEssions segunda charla: Foodiesaurus, un proyecto con palos y piedras",
