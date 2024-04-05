@@ -1,4 +1,6 @@
 export const awardsArray = [
+	{ lang: "es", aria: "awards.talks", icon: "venus", target: "_blank", text: "awards.t3chfest2024", href: "https://www.youtube.com/watch?v=gKBTMnxLGvc&list=PLqgZDFdwyB8YYRsd91u4zsPsoQ1pflWO4&index=44", type: "others" },
+	{ lang: "es", aria: "awards.talks", icon: "venus", target: "_blank", text: "awards.techshessionsThree", href: "https://www.youtube.com/watch?v=QUllvzs_KWM&ab_channel=CommitConf", type: "others" },
 	{ lang: "es", aria: "awards.talks", icon: "venus", target: "_blank", text: "awards.techshessionsTwo", href: "https://www.youtube.com/watch?v=d7NcHxRH8zU&feature=youtu.be", type: "others" },
 	{ lang: "es", aria: "awards.talks", icon: "venus", target: "_blank", text: "awards.techshessionsOne", href: "https://www.youtube.com/watch?v=CpuxfoV71E0&feature=youtu.be&ab_channel=CommitConf", type: "others" },
 	{ lang: "es", aria: "awards.talks", icon: "venus", target: "_blank", text: "awards.talksOne", href: "https://eventos.uc3m.es/70884/section/33597/ciencia-y-tecnologia-en-femenino.-programa-e-inauguracion-exposicion.html", type: "others" },
